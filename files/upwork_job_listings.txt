@@ -1,0 +1,100 @@
+Title: Build GO High Level responsive website & funnel (wordpress) for Real Estate School.
+Link: https://www.upwork.com/jobs/Build-High-Level-responsive-website-funnel-wordpress-for-Real-Estate-School_~01c08f1540b77d6211/?referrer_url_path=/nx/search/jobs
+Description: Need set up for GHL migrating old account from underneath someone else platform to my own. I need to transfer contacts and info. Then want to build a website for upcoming class and bookings. Website should include place for video testimonials. Work flow should Customer Workflow should do the following below. After the customer inquires they should be tracked through a referral source. make codes for former students website Instagram Facebook Etc . the customer should be forced to input their contact details see price, class schedule, calendar options. the customer should also be able to request a certain schedule. The class options provided are day, nights and weekends. The customer should be directed to testimonial videos they should also receive an email encouraging them to book that includes price and a call to action with links. After 2 days and no booking send follow-up email to confirm email receipt and solicit questions. an introductory call to learn who the lead is and what they want. follow up by weekly and weekly 4 weeks prior to class starting. could be done in the form of updates on remaining slots left for class. Once confirmed, send a welcome video and set expectations for class. email receipt. confirmation with class details and suggestions ( highlighters, notebooks, snacks ). After confirmation a message goes out and adds to their calendar email or text based on the preferences ask for preferences on the initial contact information form. one day prior to class students should receive an email with syllabus after they signed the digital notice to students form. Student should also receive in that email instructions Google Classroom code follow up with all students who are not in Google classroom after the second day of class. assignments are released according to the dates on the syllabus and this can be automated. Niche marketing Sports entertainment athletes schedule private classes and nil opportunities Schedule marketing video testimonials for the last day of class get headshots done Students to have ready once licensed. Figure out how to grade scantrons electronically. ask for reviews before giving the test maybe have a clear QR Code table top. Have graduation!!! Track students 3 months 9 months 12 months year and a half and two years after graduating from Sunrey Real Estate School. Offer alumni referral code that will give their lead a discount as well as the alumni. Marketing lead generation two nights and weekend classes target audience nurses, military wives teachers. Day classes Target audience shift workers stay at home moms.
+Job Type: Fixed price
+Experience Level: Intermediate
+Budget: Est. budget:
+$150.00
+
+---
+
+Title: AI developer for multi agent setup
+Link: https://www.upwork.com/jobs/span-class-highlight-span-span-class-highlight-developer-span-for-multi-span-class-highlight-agent-span-setup_~018e8c859925d62d7c/?referrer_url_path=/nx/search/jobs
+Description: I want to create a multi-agent setup for autonomous document creation with a internal ticketing system. For my tool there needs to be dynamic agent creation (comparible to AutoGPT). There will be multiple 'crews' of agents working together. There will be a internal ticketing system. You will only focus on the creation of the ' side of thing', the webapplication will be done by other freelancers. I can imagine that this explanation sounds a bit 'vague'. I would require you to sign a NDA beforehand. After signing the NDA we can continue to planning a Teams call.
+Job Type: Fixed price
+Experience Level: Expert
+Budget: Est. budget:
+$1,000.00
+
+---
+
+Title: Bubble.io Project: Build employment Skill Based test B2B SaaS platform on Bubble.io
+Link: https://www.upwork.com/jobs/Bubble-Project-Build-employment-Skill-Based-test-B2B-SaaS-platform-Bubble_~01d18d17991cad53ff/?referrer_url_path=/nx/search/jobs
+Description: - **Home page** of the website - **Introduction**: Brief overview of the platform and its benefits. - **Testimonials**: Customer reviews and success stories. - **Demo Video**: A short video showcasing the platform's key features. - **Landing Page:** Overview of the product, its features, pricing, and a call-to-action (CTA) to sign up. - **Detailed Features**: Break down features into subcategories (e.g., test creation, candidate management, reporting). - **Use Cases**: Examples of how different industries can use the platform. - **Case Studies**: In-depth examples of successful implementations. - **FAQs**: Frequently asked questions about the product. - **Admin / Candidates Sign Up/Login:** Users can create a new account or log in to an existing one. - Enhance the sign-up and login process: - Provide clear instructions for creating an account. - Include social login options (e.g., Google, LinkedIn) for convenience. - Implement secure authentication practices. - **Multi-factor Authentication (MFA)**: Enhance security by adding MFA. - **Admin Dashboard:** Once logged in, users see an overview of their account, including recent activity and key metrics. - Add more metrics and insights: - Display recent activity, such as test creation, candidate invitations, and results. - Include visualizations (charts, graphs) for better data understanding. - Allow customization of the dashboard based on user preferences. - **Real-time Notifications**: Alerts for important actions (e.g., test completions, new sign-ups). - **Customizable Widgets**: Allow admins to add/remove widgets based on their needs. - **Test Library:** A screen where admins can browse, search, and select from a variety of tests. - Expand the library functionality: - Categorize tests (e.g., technical, behavioral, language proficiency). - Enable filtering and sorting options for easy navigation. - Provide detailed descriptions for each test. - Test Templates: Pre-built templates for common test types. - **Test Creation:** admins can create custom tests by selecting questions from the library or adding their own. - Enhance the test creation process: - Allow admins to set time limits, difficulty levels, and question types. - Provide a preview feature to review the test before publishing. - Support importing questions from external sources (if applicable). - Type of questions - Question: Text, Answers: Text - Question: Text + Image , Answers: Text - Question: Text + Image , Answers: Images - Question: Text, Answers: Multiline Text - Question: Text+ Coding, Answers: Coding with evaluation - -Generated Questions: Option to generate questions using . - **Candidate Management:** admins can add candidates, send test invitations through email or SMS, and track their progress. - **Test Invitations:** a feature for sending test invitations: - Admins can select candidates and send personalized invitations. - Include a link to the specific test and clear instructions. - Track invitation status (sent, opened, completed). - Automated Follow-ups: Automated reminders for candidates who haven't completed tests. - Candidate Profiles: Store detailed profiles of candidates. - Activity Tracking: Monitor candidate activity on the platform. - **Interview Scheduling:** - Integrate an interview scheduling module: - Admins can propose interview slots to candidates. - Candidates can accept or propose alternative times. - Send automated reminders before the interview. - **Results & Reports:** admins can view detailed test results and generate reports. - Comparative reports - Provide comprehensive reporting tools: - Detailed individual candidate reports with scores, time taken, and performance breakdown. - Aggregate reports for overall test performance. - Export options (PDF, Excel) for sharing and analysis. - **Account Settings:** admins can manage their profile, billing information, and other settings. - Include additional settings: - Billing information and subscription management. - Profile customization (e.g., profile picture, contact details). - Notification preferences. - User Roles & Permissions: Different access levels for team members. - **Help/Support:** Includes FAQs, contact information, and other resources. - Expand the support section: - FAQs addressing common queries. - Contact information (email, chat, phone) for personalized assistance. - Troubleshooting guides. - Live Chat: Real-time support through chat. - User Community: Forums or groups for users to share tips and ask questions. - - **Candidates Test:** Display questions, timer, manage the camera, take a screenshot of the user while taking the test, make sure the mouse can’t move to another screen, Timer display for timed tests, Confirmation in the end - when candidate finishes, send him an email and to the admin - Proctoring Tools: -based proctoring to monitor candidate behavior. - **Video Interview:** Create an interview link, run the video streaming interview, summarize the interview, and give a description of the interview and the specific candidate's characteristic - a robust video interview module: - Generate unique interview links for each candidate. - Conduct live video interviews with recording capabilities. - Summarize interview responses and highlight candidate characteristics. - Provide a feedback section for interviewers. - Interview Guides: Tips and best practices for conducting interviews. - Analysis: Analyze facial expressions, tone of voice, etc. - Interview Rating: Rate and provide feedback on the interview performance. - **Settings & Billing** - Users management - **Plan Upgrades/Downgrades**: Easy process for changing subscription plans. - **Invoicing**: Detailed invoices and payment history.
+Job Type: Fixed price
+Experience Level: Intermediate
+Budget: Est. budget:
+$3,500.00
+
+---
+
+Title: Conversational AI setup and integration
+Link: https://www.upwork.com/jobs/Conversational-span-class-highlight-span-setup-and-integration_~015a5e2d66cb5129bc/?referrer_url_path=/nx/search/jobs
+Description: Looking for someone to assist with building out an AI agent on Air.AI and integrate it with various systems using zapier, follow up boss, go high, salesforce.com, cal.com etc. We are starting a conversational AI company and would like all of the integrations done, systems running etc. Afterwards potential to do this continuously with all of our clients we will bring on. Initial project will be the most work as we are ironing everything out.
+Job Type: Hourly: $8.00 - $30.00
+Experience Level: Intermediate
+Budget: Est. time:
+1 to 3 months, Less than 30 hrs/week
+
+---
+
+Title: Quick delivery Full stack developer | C#, ASP.NET, Core, Restful APIs, JavaScript
+Link: https://www.upwork.com/jobs/Quick-delivery-Full-stack-span-class-highlight-developer-span-ASP-NET-Core-Restful-APIs-JavaScript_~01ea65c207b3100a11/?referrer_url_path=/nx/search/jobs
+Description: We are seeking an Expert Full-Stack Developer proficient in C#, ASP.NET, Core, Restful APIs, and JavaScript for a quick project. Ideal candidates should have solid experience in full-stack development, including front-end and back-end technologies. Quick delivery is essential, and availability on weekends is a plus. We need someone who can start as soon as possible and provide exceptional value. If interested, please submit your proposal with relevant experience and examples of past projects.
+Job Type: Fixed price
+Experience Level: Intermediate
+Budget: Est. budget:
+$50.00
+
+---
+
+Title: AI Agent Avatar App Development
+Link: https://www.upwork.com/jobs/span-class-highlight-span-span-class-highlight-Agent-span-Avatar-App-span-class-highlight-Development-span_~01593cdfb176154674/?referrer_url_path=/nx/search/jobs
+Description: We are in need of a skilled developer to create an AI Agent Avatar app that will assist in securing appointments with potential home buyers and home sellers. The app will utilize AI Avatar to engage with users and provide personalized assistance in navigating the real estate process. The primary goal is to improve conversion rates for securing appointments. The successful candidate should possess the following skills: - App and website - Programming languages: Python, Java, or C++ - Languages: LLM, NPL, NLU - Avatar Integration (Live/Character/Lip-Sync/Gestures - Strong communication skills
+Job Type: Fixed price
+Experience Level: Intermediate
+Budget: Est. budget:
+$2,500.00
+
+---
+
+Title: Signal wire survey bot
+Link: https://www.upwork.com/jobs/Signal-wire-survey-bot_~01ffbdd81135a49189/?referrer_url_path=/nx/search/jobs
+Description: Hello, Looking for someone to build this. quickly. Only bid if you know what you are doing and can make this happen. https://signalwire.com/blogs/developers/using-signalwire-ai-agent-to-create-a-surveybot?utm_source=google&utm_medium=ads&utm_campaign=us_search_brand&utm_content=brand&utm_term=signal%20wire&gad_source=1&gbraid=0AAAAAC6qrz2X6pALhAB0_Y4YdjdDAdAYt&gclid=CjwKCAjwnK60BhA9EiwAmpHZw4X5y68WW6OOTYzwFwwxlKXby9LnfQdo4Z4DpoXe_ksagArcrhF3TBoCOXgQAvD_BwE
+Job Type: Fixed price
+Experience Level: Intermediate
+Budget: Est. budget:
+$50.00
+
+---
+
+Title: Intercom Expert for Print-on-Demand Customer Support
+Link: https://www.upwork.com/jobs/Intercom-Expert-for-Print-Demand-Customer-Support_~01300ef6b5f5983ae1/?referrer_url_path=/nx/search/jobs
+Description: Job Description: We are seeking an experienced Intercom expert to join our team and elevate our customer support experience. The ideal candidate will have a deep understanding of Intercom’s platform and tools, with a proven track record of improving customer support systems. Responsibilities: • Evaluate our current use of Intercom and identify areas for improvement. • Implement changes to enhance customer support processes. • Train support on best practices and new systems. • Utilize Intercom’s solutions to improve response times and customer satisfaction. • Ensure our customer support is efficient, effective, and provides a superior experience. Qualifications: • Proven experience working with Intercom. • Strong knowledge of customer support systems and processes. • Ability to leverage tools within Intercom. • Excellent training and communication skills. • Experience in the print-on-demand industry is a plus.
+Job Type: Hourly
+Experience Level: Expert
+Budget: Est. time:
+3 to 6 months, Less than 30 hrs/week
+
+---
+
+Title: Website developer and maintenance
+Link: https://www.upwork.com/jobs/Website-span-class-highlight-developer-span-and-maintenance_~012ad6c5a1fbc73aed/?referrer_url_path=/nx/search/jobs
+Description: -World wide -20+ hr weekly -We are seeking a skilled Web Developer who is also proficient in SEO’s. As a Web Developer we need websites that are optimized to drive high-quality traffic and generate leads. Your role will involve designing and responsive websites, implementing SEO techniques to enhance organic visibility.. This is an excellent opportunity for someone with a strong background in both web and SEP skills to contribute their expertise to our projects. Skills: Web SEO Shopify
+Job Type: Hourly: $8.00 - $30.00
+Experience Level: Expert
+Budget: Est. time:
+More than 6 months, 30+ hrs/week
+
+---
+
+Title: Backend developer
+Link: https://www.upwork.com/jobs/Backend-span-class-highlight-developer-span_~015c1ad19897e020a5/?referrer_url_path=/nx/search/jobs
+Description: We are a startup established in Japan and have an actively growing team! We are currently looking for a backend developer proficient in Ruby on Rails who has expertise in crafting APIs, and experience in managing databases, can communicate efficiently, can fix bugs, add new and better features, and create solid code with proper error handling. The initial work will be to support bug fixing/enhancements and API creation for a new service. The primary requirement is for backend with Ruby but if you are also proficient in Python and have a good understanding of Large Language Models (LLM) and practical experience with Retrieval-Augmented Generation (RAG) systems and , then this role is a perfect fit. In this role, you will play a critical part in creating and managing backend services along with advancing our QA/Chatbot services(tools), focusing on enhancing performance, ensuring responsiveness, and facilitating seamless integration with a variety of data sources and APIs (Open, Anthropic, Google,Hugging Face, Open Source LLMs etc). Must-have: ・ and maintain scalable backend systems using Ruby with a focus on frameworks like Ruby. ・Build and maintain APIs for internal and external consumption, ensuring they are efficient and secure. ・Design, implement, and oversee database management systems, both relational and NoSQL. ・Stay abreast of the latest industry trends and technologies, applying them to improve our solutions and workflows. Nice-to-have: ・ and maintain scalable backend systems using Python, with a focus on frameworks like FastAPI, Django, and Flask. ・Collaborate with the team to incorporate LLM and RAG technologies into our QA/Chatbot offerings, enhancing functionality and user experience. ・Implement user interfaces for LLM applications using frameworks like Streamlit and Gradio, ensuring a seamless and intuitive user experience. ・Experience on NLP, knowledge with text embedding is a bonus.
+Job Type: Hourly: $5.00 - $15.00
+Experience Level: Intermediate
+Budget: Est. time:
+More than 6 months, 30+ hrs/week
+
+---
+
