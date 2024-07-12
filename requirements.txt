@@ -1,0 +1,6 @@
+langgraph
+litellm
+selenium
+webdriver_manager
+colorama
+python-dotenv
