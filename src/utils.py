@@ -20,7 +20,8 @@ def scrape_upwork_data(search_query):
 
     try:
         # Open Upwork job search page
-        url = f'https://www.upwork.com/search/jobs/?q={search_query}&sort=recency'
+        number_of_jobs = 10
+        url = f'https://www.upwork.com/nx/search/jobs?q={search_query}&sort=recency&page=1&per_page={number_of_jobs}'
         driver.get(url)
 
         # Wait for the page to load

@@ -36,8 +36,6 @@ class Agent:
         print(Fore.GREEN + f"Calling agent: {self.name}\n")
         self.messages.append({"role": "user", "content": message})
         result = self.execute()
-        self.messages.append({"role": "assistant", "content": result})
-        self.reset()
         return result
 
     def reset(self):
@@ -51,21 +49,19 @@ class Agent:
         @return The final response from the AI.
         """
         # First, call the AI to get a response
-        response = self._call_llm()
-        response_message = response.choices[0].message
-        self.messages.append(response_message)
-
-        try:
+        response_message = self.call_llm()
+        if self.tools:
             tool_calls = response_message.tool_calls
+
+            # If there are tool calls, invoke them
             if tool_calls:
-                response = self._run_tools(tool_calls)
-                response_message = response.choices[0].message
-        except Exception as e:
-            print(Fore.GREEN + f"No tool call to process\n")
-            pass
+                try:
+                    response_message = self.run_tools(tool_calls)
+                except Exception as e:
+                    print(Fore.RED + f"Error: {e}\n")
         return response_message.content
 
-    def _run_tools(self, tool_calls):
+    def run_tools(self, tool_calls):
         """
         @notice Runs the necessary tools based on the tool calls from the AI response.
         @param tool_calls The list of tool calls from the AI response.
@@ -89,27 +85,35 @@ class Agent:
             })
 
         # Call the AI again so it can produce a response with the result of calling the tool(s)
-        response = self._call_llm()
-        response_message = response.choices[0].message
-        self.messages.append(response_message)
-
-        # If the AI decided to invoke a tool again, invoke it
-        try:
+        response_message = self.call_llm()
+        if self.tools:
             tool_calls = response_message.tool_calls
+
+            # If the AI decided to invoke a tool again, invoke it
             if tool_calls:
-                response = self._run_tools(tool_calls)
-        except Exception as e:
-            print(Fore.GREEN + f"No tool call to process\n")
-            pass
+                try:
+                    response_message = self.run_tools(tool_calls)
+                except:
+                    print(Fore.RED + f"Error: {e}\n")
 
-        return response
+        return response_message
 
-    def _call_llm(self):
-        print(Fore.GREEN + "LLM Call\n")
+    def call_llm(self):
         response = completion(
             model=self.model,
             messages=self.messages,
-            **({"tools": self.tools} if self.tools else {}),
+            tools=self.tools,
             temperature=0.1
         )
-        return response
+        response_message = response.choices[0].message
+
+        # Necessary to handle Groq llama3 error
+        if self.tools:
+            if response_message.tool_calls is None:
+                response_message.tool_calls = []
+            if response_message.function_call is None:
+                response_message.function_call = {}
+
+        self.messages.append(response_message)
+
+        return response_message

@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
-from utils import read_text_file
-from graph import UpworkAutomationGraph
+from src.utils import read_text_file
+from src.graph import UpworkAutomationGraph
 
 # Load environment variables from a .env file
 load_dotenv()
@@ -15,3 +15,5 @@ if __name__ == "__main__":
     # run automation graph
     bot = UpworkAutomationGraph(profile)
     bot.run(job_title)
+
+    print(bot.generate_cover_letter_agent.messages)

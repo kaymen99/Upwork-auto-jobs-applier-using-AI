@@ -1,100 +1,100 @@
-Title: Build GO High Level responsive website & funnel (wordpress) for Real Estate School.
-Link: https://www.upwork.com/jobs/Build-High-Level-responsive-website-funnel-wordpress-for-Real-Estate-School_~01c08f1540b77d6211/?referrer_url_path=/nx/search/jobs
-Description: Need set up for GHL migrating old account from underneath someone else platform to my own. I need to transfer contacts and info. Then want to build a website for upcoming class and bookings. Website should include place for video testimonials. Work flow should Customer Workflow should do the following below. After the customer inquires they should be tracked through a referral source. make codes for former students website Instagram Facebook Etc . the customer should be forced to input their contact details see price, class schedule, calendar options. the customer should also be able to request a certain schedule. The class options provided are day, nights and weekends. The customer should be directed to testimonial videos they should also receive an email encouraging them to book that includes price and a call to action with links. After 2 days and no booking send follow-up email to confirm email receipt and solicit questions. an introductory call to learn who the lead is and what they want. follow up by weekly and weekly 4 weeks prior to class starting. could be done in the form of updates on remaining slots left for class. Once confirmed, send a welcome video and set expectations for class. email receipt. confirmation with class details and suggestions ( highlighters, notebooks, snacks ). After confirmation a message goes out and adds to their calendar email or text based on the preferences ask for preferences on the initial contact information form. one day prior to class students should receive an email with syllabus after they signed the digital notice to students form. Student should also receive in that email instructions Google Classroom code follow up with all students who are not in Google classroom after the second day of class. assignments are released according to the dates on the syllabus and this can be automated. Niche marketing Sports entertainment athletes schedule private classes and nil opportunities Schedule marketing video testimonials for the last day of class get headshots done Students to have ready once licensed. Figure out how to grade scantrons electronically. ask for reviews before giving the test maybe have a clear QR Code table top. Have graduation!!! Track students 3 months 9 months 12 months year and a half and two years after graduating from Sunrey Real Estate School. Offer alumni referral code that will give their lead a discount as well as the alumni. Marketing lead generation two nights and weekend classes target audience nurses, military wives teachers. Day classes Target audience shift workers stay at home moms.
+Title: Flutter
+Link: https://www.upwork.com/jobs/Flutter_~01e5e272b3632faa8e/?referrer_url_path=/nx/search/jobs
+Description: Flutter bloc architecture, GETX, RxDart, Localisations, Flutter Method channnel
+Job Type: Hourly
+Experience Level: Intermediate
+Budget: Est. time:
+Less than 1 month, Less than 30 hrs/week
+
+---
+
+Title: Looking for AI chatbot developer
+Link: https://www.upwork.com/jobs/Looking-for-span-class-highlight-span-chatbot-span-class-highlight-developer-span_~010635035b2f36bbaa/?referrer_url_path=/nx/search/jobs
+Description: We have a working chatbot using RAG With OpenAi that can be trained with a dataset in pdf format + 1 extra pdf file of 1 page. We need to train the chatbot with more and larger pdf files (20+ pages in each pdf file). When we try with a larger file we have an Open error about TPM exceeded for the request.
 Job Type: Fixed price
 Experience Level: Intermediate
 Budget: Est. budget:
-$150.00
+$50.00
 
 ---
 
-Title: AI developer for multi agent setup
-Link: https://www.upwork.com/jobs/span-class-highlight-span-span-class-highlight-developer-span-for-multi-span-class-highlight-agent-span-setup_~018e8c859925d62d7c/?referrer_url_path=/nx/search/jobs
-Description: I want to create a multi-agent setup for autonomous document creation with a internal ticketing system. For my tool there needs to be dynamic agent creation (comparible to AutoGPT). There will be multiple 'crews' of agents working together. There will be a internal ticketing system. You will only focus on the creation of the ' side of thing', the webapplication will be done by other freelancers. I can imagine that this explanation sounds a bit 'vague'. I would require you to sign a NDA beforehand. After signing the NDA we can continue to planning a Teams call.
-Job Type: Fixed price
-Experience Level: Expert
-Budget: Est. budget:
-$1,000.00
-
----
-
-Title: Bubble.io Project: Build employment Skill Based test B2B SaaS platform on Bubble.io
-Link: https://www.upwork.com/jobs/Bubble-Project-Build-employment-Skill-Based-test-B2B-SaaS-platform-Bubble_~01d18d17991cad53ff/?referrer_url_path=/nx/search/jobs
-Description: - **Home page** of the website - **Introduction**: Brief overview of the platform and its benefits. - **Testimonials**: Customer reviews and success stories. - **Demo Video**: A short video showcasing the platform's key features. - **Landing Page:** Overview of the product, its features, pricing, and a call-to-action (CTA) to sign up. - **Detailed Features**: Break down features into subcategories (e.g., test creation, candidate management, reporting). - **Use Cases**: Examples of how different industries can use the platform. - **Case Studies**: In-depth examples of successful implementations. - **FAQs**: Frequently asked questions about the product. - **Admin / Candidates Sign Up/Login:** Users can create a new account or log in to an existing one. - Enhance the sign-up and login process: - Provide clear instructions for creating an account. - Include social login options (e.g., Google, LinkedIn) for convenience. - Implement secure authentication practices. - **Multi-factor Authentication (MFA)**: Enhance security by adding MFA. - **Admin Dashboard:** Once logged in, users see an overview of their account, including recent activity and key metrics. - Add more metrics and insights: - Display recent activity, such as test creation, candidate invitations, and results. - Include visualizations (charts, graphs) for better data understanding. - Allow customization of the dashboard based on user preferences. - **Real-time Notifications**: Alerts for important actions (e.g., test completions, new sign-ups). - **Customizable Widgets**: Allow admins to add/remove widgets based on their needs. - **Test Library:** A screen where admins can browse, search, and select from a variety of tests. - Expand the library functionality: - Categorize tests (e.g., technical, behavioral, language proficiency). - Enable filtering and sorting options for easy navigation. - Provide detailed descriptions for each test. - Test Templates: Pre-built templates for common test types. - **Test Creation:** admins can create custom tests by selecting questions from the library or adding their own. - Enhance the test creation process: - Allow admins to set time limits, difficulty levels, and question types. - Provide a preview feature to review the test before publishing. - Support importing questions from external sources (if applicable). - Type of questions - Question: Text, Answers: Text - Question: Text + Image , Answers: Text - Question: Text + Image , Answers: Images - Question: Text, Answers: Multiline Text - Question: Text+ Coding, Answers: Coding with evaluation - -Generated Questions: Option to generate questions using . - **Candidate Management:** admins can add candidates, send test invitations through email or SMS, and track their progress. - **Test Invitations:** a feature for sending test invitations: - Admins can select candidates and send personalized invitations. - Include a link to the specific test and clear instructions. - Track invitation status (sent, opened, completed). - Automated Follow-ups: Automated reminders for candidates who haven't completed tests. - Candidate Profiles: Store detailed profiles of candidates. - Activity Tracking: Monitor candidate activity on the platform. - **Interview Scheduling:** - Integrate an interview scheduling module: - Admins can propose interview slots to candidates. - Candidates can accept or propose alternative times. - Send automated reminders before the interview. - **Results & Reports:** admins can view detailed test results and generate reports. - Comparative reports - Provide comprehensive reporting tools: - Detailed individual candidate reports with scores, time taken, and performance breakdown. - Aggregate reports for overall test performance. - Export options (PDF, Excel) for sharing and analysis. - **Account Settings:** admins can manage their profile, billing information, and other settings. - Include additional settings: - Billing information and subscription management. - Profile customization (e.g., profile picture, contact details). - Notification preferences. - User Roles & Permissions: Different access levels for team members. - **Help/Support:** Includes FAQs, contact information, and other resources. - Expand the support section: - FAQs addressing common queries. - Contact information (email, chat, phone) for personalized assistance. - Troubleshooting guides. - Live Chat: Real-time support through chat. - User Community: Forums or groups for users to share tips and ask questions. - - **Candidates Test:** Display questions, timer, manage the camera, take a screenshot of the user while taking the test, make sure the mouse can’t move to another screen, Timer display for timed tests, Confirmation in the end - when candidate finishes, send him an email and to the admin - Proctoring Tools: -based proctoring to monitor candidate behavior. - **Video Interview:** Create an interview link, run the video streaming interview, summarize the interview, and give a description of the interview and the specific candidate's characteristic - a robust video interview module: - Generate unique interview links for each candidate. - Conduct live video interviews with recording capabilities. - Summarize interview responses and highlight candidate characteristics. - Provide a feedback section for interviewers. - Interview Guides: Tips and best practices for conducting interviews. - Analysis: Analyze facial expressions, tone of voice, etc. - Interview Rating: Rate and provide feedback on the interview performance. - **Settings & Billing** - Users management - **Plan Upgrades/Downgrades**: Easy process for changing subscription plans. - **Invoicing**: Detailed invoices and payment history.
-Job Type: Fixed price
+Title: RAG LLM AI Chatbot + Conversational Agent for Spanish Speaking Call Center
+Link: https://www.upwork.com/jobs/RAG-LLM-span-class-highlight-span-Chatbot-Conversational-span-class-highlight-Agent-span-for-Spanish-Speaking-Call-Center_~014f2613f5f86a72c5/?referrer_url_path=/nx/search/jobs
+Description: The client company based in South America and works with Spanish-speaking customers. It is dedicated to providing specialized transportation services for customers in the health sector, particularly those with reduced mobility or disabilities. You would be partnering with me to an Chatbot and Conversational leveraging a RAG LLM architecture for a call center. The Chatbot (Phase 1) and Conversation (Phase 2) would field incoming customer chats via WhatsApp and phone calls. Additional Details below: Position: /Conversational Engineer Responsibilities: Call Center Integration: and implement chatbot solutions to handle customer interactions via WhatsApp, focusing initially on the following requests: Phase 1 1. Modifying an existing transportation reservation for an existing customer. 2. Getting information (e.g., confirmation) on an existing reservation. Phase 2 - In addition to 1 and 2 above, for the Chatbot include interaction types 3 and 4 below. - Additionally, a conversational capable of handling phone calls, transcribing conversations in real-time, and fulfilling all types of customer requests, including: 3. Creating a net new customer (i.e., a new entry in the customer database). 4. Creating a new transportation reservation for an existing customer. Chatbot : Design and an RAG-based (Retrieval-Augmented Generation) LLM (Large Language Model) solution that integrates seamlessly with our on-premise PostgreSQL database. Ensure the chatbot provides accurate and helpful responses, improving customer satisfaction and reducing call center workload. Conversational : and integrate a conversational capable of real-time voice interactions with customers. -Implement real-time transcription capabilities to accurately capture and process customer requests. -Enhance the conversational 's ability to understand and respond to complex queries, ensuring a smooth and efficient customer experience. Performance Monitoring and Optimization: -Monitor chatbot and conversational performance, identifying and addressing areas for improvement. -Analyze chat volume data, focusing on reducing abandoned chats and increasing successful interactions. -Collaborate with the call center team to gather feedback and continuously enhance solutions. Qualifications: - Bachelor's or Master's degree in Computer Science, Artificial Intelligence, Data Science, or a related field. - Proven experience in and deploying chatbots and conversational solutions. - Strong knowledge of Natural Language Processing (NLP) and Machine Learning (ML) techniques. - Experience with RAG-based LLM solutions - Proficiency in Python - Familiarity with voice recognition and real-time transcription technologies. - Excellent problem-solving skills and the ability to work independently and collaboratively. - Strong communication skills English (I will provide English/Spanish translation support as needed)
+Job Type: Hourly: $20.00 - $32.00
 Experience Level: Intermediate
-Budget: Est. budget:
-$3,500.00
+Budget: Est. time:
+More than 6 months, 30+ hrs/week
 
 ---
 
-Title: Conversational AI setup and integration
-Link: https://www.upwork.com/jobs/Conversational-span-class-highlight-span-setup-and-integration_~015a5e2d66cb5129bc/?referrer_url_path=/nx/search/jobs
-Description: Looking for someone to assist with building out an AI agent on Air.AI and integrate it with various systems using zapier, follow up boss, go high, salesforce.com, cal.com etc. We are starting a conversational AI company and would like all of the integrations done, systems running etc. Afterwards potential to do this continuously with all of our clients we will bring on. Initial project will be the most work as we are ironing everything out.
-Job Type: Hourly: $8.00 - $30.00
+Title: Chrome Extension for GitHub
+Link: https://www.upwork.com/jobs/Chrome-Extension-for-GitHub_~01f6ddffef83634671/?referrer_url_path=/nx/search/jobs
+Description: Developing a chat panel in GitHub's PR screen, Files-Changed tab. This is a part of an existing Chrome Extension - https://chromewebstore.google.com/detail/pr-agent-chrome-extension/ephlnjeghhogofkifjloamocljapahnl?pli=1 Which is a plugin for PR- - https://github.com/Codium-/pr- The tab will accept questions from a user, sending an API request to an existing engine in the backend (already existed) and present the results.
+Job Type: Hourly: $30.00 - $70.00
 Experience Level: Intermediate
 Budget: Est. time:
 1 to 3 months, Less than 30 hrs/week
 
 ---
 
-Title: Quick delivery Full stack developer | C#, ASP.NET, Core, Restful APIs, JavaScript
-Link: https://www.upwork.com/jobs/Quick-delivery-Full-stack-span-class-highlight-developer-span-ASP-NET-Core-Restful-APIs-JavaScript_~01ea65c207b3100a11/?referrer_url_path=/nx/search/jobs
-Description: We are seeking an Expert Full-Stack Developer proficient in C#, ASP.NET, Core, Restful APIs, and JavaScript for a quick project. Ideal candidates should have solid experience in full-stack development, including front-end and back-end technologies. Quick delivery is essential, and availability on weekends is a plus. We need someone who can start as soon as possible and provide exceptional value. If interested, please submit your proposal with relevant experience and examples of past projects.
-Job Type: Fixed price
-Experience Level: Intermediate
-Budget: Est. budget:
-$50.00
+Title: Automation Engineer
+Link: https://www.upwork.com/jobs/Automation-Engineer_~0193d19793903ac2a7/?referrer_url_path=/nx/search/jobs
+Description: Title: Lead Automation Engineer Description: We are an innovative AI automation agency looking for a Lead Automation Engineer to spearhead our key service offerings. The ideal candidate will have a strong background in no-code/low-code tools and extensive experience with Open technologies. Responsibilities: and implement automation solutions using Make.com, Zapier, Voiceflow, and Botpress. Create and optimize chatbots and voice-based . Integrate -driven workflows for operational efficiency. Collaborate with teams to define project requirements. Ensure seamless integration of Open models. Build custom GPTs and work with large language models (LLMs). Requirements: Proven experience in automation engineering. Expertise in Make.com, Zapier, Voiceflow, Botpress. Extensive experience with Open technologies. Strong problem-solving and project management skills. Ability to work in a fast-paced environment. Experience building custom GPTs and working with LLMs. Preferred: Experience in -driven customer support solutions. Familiarity with other and ML frameworks. Leadership experience in tech or -focused roles.
+Job Type: Hourly: $5.00 - $20.00
+Experience Level: Expert
+Budget: Est. time:
+1 to 3 months, 30+ hrs/week
 
 ---
 
-Title: AI Agent Avatar App Development
-Link: https://www.upwork.com/jobs/span-class-highlight-span-span-class-highlight-Agent-span-Avatar-App-span-class-highlight-Development-span_~01593cdfb176154674/?referrer_url_path=/nx/search/jobs
-Description: We are in need of a skilled developer to create an AI Agent Avatar app that will assist in securing appointments with potential home buyers and home sellers. The app will utilize AI Avatar to engage with users and provide personalized assistance in navigating the real estate process. The primary goal is to improve conversion rates for securing appointments. The successful candidate should possess the following skills: - App and website - Programming languages: Python, Java, or C++ - Languages: LLM, NPL, NLU - Avatar Integration (Live/Character/Lip-Sync/Gestures - Strong communication skills
+Title: Experienced AI developer needed for building AI agents
+Link: https://www.upwork.com/jobs/Experienced-span-class-highlight-span-span-class-highlight-developer-span-needed-for-building-span-class-highlight-span-span-class-highlight-agents-span_~013b349bae46f6592a/?referrer_url_path=/nx/search/jobs
+Description: Title: Experienced AI Developer Needed for Building AI Agents Description: We are seeking a skilled and experienced AI developer to create intelligent agents for our social media. The ideal candidate will have a strong background in artificial intelligence, machine learning, and natural language processing. Responsibilities: • Design, , and implement tailored to our specific needs • Integrate with existing systems and platforms • Train and fine-tune machine learning models • Ensure the perform efficiently and accurately • Troubleshoot and resolve any issues that arise during and deployment • Collaborate with our team to understand requirements and deliver high-quality solutions Requirements: • Proven experience in and machine learning • Proficiency in programming languages such as Python, Java, or C++ • Experience with machine learning frameworks (e.g., TensorFlow, PyTorch) • Strong understanding of natural language processing (NLP) techniques • Familiarity with tools and platforms (e.g., Open, Google , IBM Watson) • Ability to work independently and manage project timelines effectively • Excellent problem-solving skills and attention to detail • Good communication skills and ability to collaborate with a remote team Preferred Qualifications: • Experience with chatbots or virtual assistants • Knowledge of reinforcement learning • Background in data science and analytics • Previous work on similar projects Please submit your proposal with the following: 1. A brief introduction about yourself and your experience in 2. Examples of previous projects you’ve worked on 3. Your approach to for our application 4. Your availability and estimated timeline for the project 5. Your rate and any additional costs We look forward to working with a talented who can help us achieve our goals. Thank you!
 Job Type: Fixed price
 Experience Level: Intermediate
 Budget: Est. budget:
-$2,500.00
+$1,000.00
 
 ---
 
-Title: Signal wire survey bot
-Link: https://www.upwork.com/jobs/Signal-wire-survey-bot_~01ffbdd81135a49189/?referrer_url_path=/nx/search/jobs
-Description: Hello, Looking for someone to build this. quickly. Only bid if you know what you are doing and can make this happen. https://signalwire.com/blogs/developers/using-signalwire-ai-agent-to-create-a-surveybot?utm_source=google&utm_medium=ads&utm_campaign=us_search_brand&utm_content=brand&utm_term=signal%20wire&gad_source=1&gbraid=0AAAAAC6qrz2X6pALhAB0_Y4YdjdDAdAYt&gclid=CjwKCAjwnK60BhA9EiwAmpHZw4X5y68WW6OOTYzwFwwxlKXby9LnfQdo4Z4DpoXe_ksagArcrhF3TBoCOXgQAvD_BwE
+Title: Expert in AI and Mathematical probabilities
+Link: https://www.upwork.com/jobs/Expert-span-class-highlight-span-and-Mathematical-probabilities_~01229ed76ad46b2699/?referrer_url_path=/nx/search/jobs
+Description: Need a top AI expert for an educational project about probabilities. We are developing an educational project focused on probabilities and how to improve and increase odds using AI and/or AI tools. The project aims to educate by delivering flawless, 100% accurate results and highly effective strategies, with Zero margin of error. Important - We are looking for a top expert who can create a simple tool that can solve the probabilities problem that we will be working on. Do you know an effective tool that can do highly complex probabilities problems, or can you create a simple tool that can do it based on our requirements? Looking For: • An expert with extensive knowledge in probabilistic mathematical models. • A top tool that can assist in and demonstrating all of these concepts effectively. The project goals include: 1. Demonstrating Increased Odds: - leverage to increase the odds of success in various specific scenarios. 2. Effective Strategies: - success strategies based on probabilities. 3. Generating Ideas and Solutions:** Use to brainstorm and proficient generate effective solutions for a specific real-world problem. The tool should be able to generate accurate and practical solutions. So this way the whole project will help highlight how has transformed the way we understand and utilise probabilities today, showing improved results compared to traditional methods. If you are an expert with a passion for education and a deep understanding of probabilities and/or if you know of a robust tool that can help us achieve our goals, we would love to hear from you. Your expertise will be invaluable in bringing clarity to our students about probabilities and . We will provide more project details to the selected candidate.
+Job Type: Fixed price
+Experience Level: Expert
+Budget: Est. budget:
+$300.00
+
+---
+
+Title: Python Developer – Medical AI Chat Agent
+Link: https://www.upwork.com/jobs/Python-span-class-highlight-Developer-span-Medical-span-class-highlight-span-Chat-span-class-highlight-Agent-span_~01730c14a2938c2b5e/?referrer_url_path=/nx/search/jobs
+Description: Project Overview: We are seeking a junior Python developer with Large Language Model (LLM) experience to join our team in developing an innovative AI-powered chat agent for the medical domain. This project aims to help patients make better medical decisions. Key Responsibilities: - and implement LLM-powered conversational components using Open, Mistral, Langchain, RAG techniques and brainstorming. - Integrate the chat with WhatsApp Flows to expand accessibility. - Skillfully manipulate JSON objects for seamless data exchange in the project. - Design and consume REST APIs to facilitate communication within the application. - Employ Pandas for efficient data processing and analysis. Web scrapping (beautiful soup) and entity extraction Required Skills: - Strong proficiency in Python . - Hands-on experience with Large Language Models (LLMs), ideally Open or Mistral. -Solid understanding of Langchain, Retrieval-Augmented -Generation (RAG) concepts and (crewai) - Experience with REST API and consumption. - Expertise in JSON object manipulation. - Proficient in data processing and analysis using Pandas. - Good English communication skills. Nice to Have: Familiarity with WhatsApp Flows for streamlined user interaction. Why Join Us: - Contribute to a project with the potential to make a positive impact on healthcare. - Work with cutting-edge technologies and LLM advancements. - Collaborate with a dynamic team in a supportive environment. To Apply: Please send your brief resume and a project portfolio
 Job Type: Fixed price
 Experience Level: Intermediate
 Budget: Est. budget:
-$50.00
+$800.00
 
 ---
 
-Title: Intercom Expert for Print-on-Demand Customer Support
-Link: https://www.upwork.com/jobs/Intercom-Expert-for-Print-Demand-Customer-Support_~01300ef6b5f5983ae1/?referrer_url_path=/nx/search/jobs
-Description: Job Description: We are seeking an experienced Intercom expert to join our team and elevate our customer support experience. The ideal candidate will have a deep understanding of Intercom’s platform and tools, with a proven track record of improving customer support systems. Responsibilities: • Evaluate our current use of Intercom and identify areas for improvement. • Implement changes to enhance customer support processes. • Train support on best practices and new systems. • Utilize Intercom’s solutions to improve response times and customer satisfaction. • Ensure our customer support is efficient, effective, and provides a superior experience. Qualifications: • Proven experience working with Intercom. • Strong knowledge of customer support systems and processes. • Ability to leverage tools within Intercom. • Excellent training and communication skills. • Experience in the print-on-demand industry is a plus.
+Title: AI Sales Outreach Automation
+Link: https://www.upwork.com/jobs/span-class-highlight-span-Sales-Outreach-Automation_~01d570c360d25d9a0b/?referrer_url_path=/nx/search/jobs
+Description: We are seeking a skilled AI Sales Outreach Automation Specialist to streamline and optimize our sales outreach processes using advanced AI tools and strategies. As our specialist, you will be responsible for designing, implementing, and managing automated outreach campaigns that effectively engage prospects and drive conversions. Your expertise in technologies, particularly in crafting personalized outreach sequences and integrating -driven insights into our CRM, will be crucial in enhancing our sales pipeline efficiency. If you have a proven track record in leveraging for sales automation and a knack for optimizing outreach performance metrics, we want to hear from you!
+Job Type: Fixed price
+Experience Level: Expert
+Budget: Est. budget:
+$5,000.00
+
+---
+
+Title: Modern New Car buying cross platform MERN stack development
+Link: https://www.upwork.com/jobs/Modern-New-Car-buying-cross-platform-MERN-stack-span-class-highlight-development-span_~0167b6519b8f0b453f/?referrer_url_path=/nx/search/jobs
+Description: We are looking for a experienced full stack development team to finalize our development cross platform new car buying web app with sales agent supporting mobile application. The development team will turn our figma designs into react code we utilization of tools, build out the back end architecture, setup databased, organize and engineer needed api's. Frontend , deploying suite of api's from stripe, stripe issuing api, evox images api, ocr api plus other supporting 20+ api's needed for the platform. excellence in MERN stack , knowledge of OCR interrogation. We are ready to move into with key api components ready and or . Knowledge and utilization of assistant and tools required, examples of pervious experience. Knowledge of OCR required and a proven history of and launching mobile platform. Fixed price proposal required and estimated timeline required to be considered for project.
 Job Type: Hourly
 Experience Level: Expert
 Budget: Est. time:
-3 to 6 months, Less than 30 hrs/week
-
----
-
-Title: Website developer and maintenance
-Link: https://www.upwork.com/jobs/Website-span-class-highlight-developer-span-and-maintenance_~012ad6c5a1fbc73aed/?referrer_url_path=/nx/search/jobs
-Description: -World wide -20+ hr weekly -We are seeking a skilled Web Developer who is also proficient in SEO’s. As a Web Developer we need websites that are optimized to drive high-quality traffic and generate leads. Your role will involve designing and responsive websites, implementing SEO techniques to enhance organic visibility.. This is an excellent opportunity for someone with a strong background in both web and SEP skills to contribute their expertise to our projects. Skills: Web SEO Shopify
-Job Type: Hourly: $8.00 - $30.00
-Experience Level: Expert
-Budget: Est. time:
-More than 6 months, 30+ hrs/week
-
----
-
-Title: Backend developer
-Link: https://www.upwork.com/jobs/Backend-span-class-highlight-developer-span_~015c1ad19897e020a5/?referrer_url_path=/nx/search/jobs
-Description: We are a startup established in Japan and have an actively growing team! We are currently looking for a backend developer proficient in Ruby on Rails who has expertise in crafting APIs, and experience in managing databases, can communicate efficiently, can fix bugs, add new and better features, and create solid code with proper error handling. The initial work will be to support bug fixing/enhancements and API creation for a new service. The primary requirement is for backend with Ruby but if you are also proficient in Python and have a good understanding of Large Language Models (LLM) and practical experience with Retrieval-Augmented Generation (RAG) systems and , then this role is a perfect fit. In this role, you will play a critical part in creating and managing backend services along with advancing our QA/Chatbot services(tools), focusing on enhancing performance, ensuring responsiveness, and facilitating seamless integration with a variety of data sources and APIs (Open, Anthropic, Google,Hugging Face, Open Source LLMs etc). Must-have: ・ and maintain scalable backend systems using Ruby with a focus on frameworks like Ruby. ・Build and maintain APIs for internal and external consumption, ensuring they are efficient and secure. ・Design, implement, and oversee database management systems, both relational and NoSQL. ・Stay abreast of the latest industry trends and technologies, applying them to improve our solutions and workflows. Nice-to-have: ・ and maintain scalable backend systems using Python, with a focus on frameworks like FastAPI, Django, and Flask. ・Collaborate with the team to incorporate LLM and RAG technologies into our QA/Chatbot offerings, enhancing functionality and user experience. ・Implement user interfaces for LLM applications using frameworks like Streamlit and Gradio, ensuring a seamless and intuitive user experience. ・Experience on NLP, knowledge with text embedding is a bonus.
-Job Type: Hourly: $5.00 - $15.00
-Experience Level: Intermediate
-Budget: Est. time:
-More than 6 months, 30+ hrs/week
+1 to 3 months, 30+ hrs/week
 
 ---
 

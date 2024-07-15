@@ -3,9 +3,12 @@ from langgraph.graph import END, StateGraph
 from typing_extensions import TypedDict
 from typing import List
 from colorama import Fore, Style, init
-from agent import Agent
-from utils import read_text_file, scrape_upwork_data, save_jobs_to_file
-from prompts import *
+from .agent import Agent
+from .utils import read_text_file, scrape_upwork_data, save_jobs_to_file
+from .prompts import *
+
+SCRAPED_JOBS_FILE = "./files/upwork_job_listings.txt"
+COVER_LETTERS_FILE = "./files/cover_letter.txt"
 
 ### Our graph state
 class GraphState(TypedDict):
@@ -38,7 +41,7 @@ class UpworkAutomationGraph:
         print(Fore.YELLOW + f"----- Scraping Upwork jobs for: {job_title} -----\n" + Style.RESET_ALL)
         job_listings = scrape_upwork_data(job_title)
         print(Fore.GREEN + f"----- Scraped {len(job_listings)} jobs -----\n" + Style.RESET_ALL)
-        save_jobs_to_file(job_listings, 'files/upwork_job_listings.txt')
+        save_jobs_to_file(job_listings, SCRAPED_JOBS_FILE)
         job_listings_str = '\n'.join(map(str, job_listings))
         return {
             **state, 
@@ -105,7 +108,7 @@ class UpworkAutomationGraph:
         @return: The updated state after saving the cover letter.
         """
         print(Fore.YELLOW + "----- Saving cover letter -----\n" + Style.RESET_ALL)
-        with open("files/cover_letter.txt", "a") as file:
+        with open(COVER_LETTERS_FILE, "a") as file:
             file.write(state["cover_letter"] + f'\n{"-"*70}\n')
         
         # Remove already processed job

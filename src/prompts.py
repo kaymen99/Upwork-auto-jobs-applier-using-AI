@@ -1,4 +1,4 @@
-from utils import read_text_file
+from .utils import read_text_file
 
 profile = read_text_file("./files/profile.md")
 
