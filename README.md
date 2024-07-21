@@ -1,6 +1,6 @@
-# Upwork Jobs Cover Letters Automation
+# Automated Upwork Cover Letters Generation
 
-I built an AI-powered Upwork jobs cover letters generation system using Langgraph and Litellm. This project consists of two AI agents working together to achieve the following steps:
+I built an AI-powered Upwork cover letters generation system using Langgraph and Litellm. This project consists of two AI agents working together to achieve the following steps:
 
 - **Scrape job listings from Upwork for the user provided job title.**
 - **Classify scraped jobs to identify the ones that match with user profile.**
