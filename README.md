@@ -11,11 +11,7 @@
 
 ## Introduction
 
-<<<<<<< HEAD
 **UpworkScribe AI** is an innovative, AI-powered tool designed to revolutionize the freelance job application process on Upwork. In today's fast-paced gig economy, where opportunities can disappear within hours, this program offers freelancers a significant edge. By harnessing the power of artificial intelligence and automation, UpworkScribe AI enables freelancers to efficiently apply to multiple relevant projects with personalized cover letters, maximizing their chances of securing ideal freelance opportunities.
-=======
-**UpworkScribe AI** is an innovative, AI-powered tool designed to revolutionize the freelance job application process on Upwork. In today's fast-paced gig economy, where opportunities can disappear within hours, this program offers freelancers a significant edge. By harnessing the power of artificial intelligence and automation, UpworkScribe AI enables users to efficiently apply to multiple relevant projects with personalized cover letters, maximizing their chances of securing ideal freelance opportunities.
->>>>>>> cf5f169b1d765164e660b4b4e9b0a9562ee6d515
 
 ## The Challenge of Modern Freelancing
 
@@ -48,11 +44,7 @@ UpworkScribe AI steps in as a game-changing solution to these challenges. It's n
 ### Advanced AI Technology
 
 - Utilizes Langgraph for workflow orchestration
-<<<<<<< HEAD
-- Implements Litellm for multiple LLM integration
-=======
-- Implements Litellm for robust language model integration
->>>>>>> cf5f169b1d765164e660b4b4e9b0a9562ee6d515
+- Implements Litellm for multi LLM integration
 
 ## How It Works
 
