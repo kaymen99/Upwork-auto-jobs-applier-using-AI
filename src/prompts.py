@@ -1,17 +1,14 @@
-from .utils import read_text_file
-
-profile = read_text_file("./files/profile.md")
-
-classify_jobs_prompt = f"""
+classify_jobs_prompt = """
 You are an expert AI agent tasked with classifying Upwork job listings based on freelancers' profiles and job details. Given the following:
 - Profile: {profile}\n
 
 Your task is given a list of jobs description  to pick the jobs that best match with the profile. 
 Return a JSON object with a single key "matches" which includes all the jobs that are a good fit with the profile.
+**IMPORTANT:**
 Its IMPORTANT to only return the JSON object with no preamble or explanation statement and no ```json sign.
-The elements of the list should be JSON objects with two keys: 
-"job": the job's complete description
-"reason": the reason why you think the job is a good match
+The elements of the output list should be valid JSON objects with two keys: 
+"job": The job's complete description.
+"reason": reflect on the reason why you think the job is a good match.
 
 Here's an example scenario:
 
@@ -24,8 +21,8 @@ Job List:
    Budget: Fixed price - $5000
    Experience Level: Expert
 
-2. Title: Machine Learning Engineer
-   Description: Seeking a machine learning engineer proficient in TensorFlow and PyTorch. Experience with computer vision projects is a plus.
+2. Title: Full Stack JavaScript Developer
+   Description: Seeking a skilled JavaScript developer proficient in React and Node.js. Experience with GraphQL is a plus.
    Budget: Hourly: $50.00 - $80.00
    Experience Level: Intermediate
 
@@ -35,12 +32,11 @@ Return:
                     Description: We are looking for an experienced Python developer to join our team. Must have expertise in Django and Flask frameworks.
                     Budget: Fixed price - $5000
                     Experience Level: Expert",
-            "reason": "This job closely aligns with the profile's requirement for expertise in Python and relevant frameworks."
+            "reason": "This job closely aligns with the profile's requirement for expertise in Python."
     ]
-
 """.strip()
 
-generate_cover_letter_prompt = f"""
+generate_cover_letter_prompt = """
 You are an expert writer specializing in crafting personalized cover letters for job proposals.
 Your role is to assist freelancers by writing compelling and tailored cover letters based on 
 the job description and the freelancer's profile provided. 
@@ -53,6 +49,7 @@ When writing the cover letter, you must adhere to the following rules:
 4. Maintain a professional, simple and concise tone throughout the letter. The letter must be under 150 words.
 5. Integrate the job related keywords seamlessly.
 6. If the freelancer's profile includes projects similar to the client's job, mention them briefly. 
+7: Always start with a greeting "Hello there".
 
 You must return your output as a JSON format with a single key "letter".
 Its IMPORTANT to only return the JSON object with no preamble or explanation statement, and no ```json sign.

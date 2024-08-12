@@ -11,7 +11,7 @@ def read_text_file(filename):
         lines = [line.strip() for line in lines if line.strip()]
         return "".join(lines)
 
-def scrape_upwork_data(search_query):
+def scrape_upwork_data(search_query, num_jobs):
     # Setup Chrome WebDriver
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service)
@@ -20,8 +20,7 @@ def scrape_upwork_data(search_query):
 
     try:
         # Open Upwork job search page
-        number_of_jobs = 10
-        url = f'https://www.upwork.com/nx/search/jobs?q={search_query}&sort=recency&page=1&per_page={number_of_jobs}'
+        url = f'https://www.upwork.com/nx/search/jobs?q={search_query}&sort=recency&page=1&per_page={num_jobs}'
         driver.get(url)
 
         # Wait for the page to load
