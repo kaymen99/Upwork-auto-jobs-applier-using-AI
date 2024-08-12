@@ -7,6 +7,8 @@
 
 # UpworkScribe AI: Automated Jobs Application on Upwork
 
+**UpworkScribe AI is not just a tool; it's your partner in navigating the competitive world of freelancing, helping you secure more projects and grow your freelance career. 🚀**
+
 ## Introduction
 
 **UpworkScribe AI** is an innovative, AI-powered tool designed to revolutionize the freelance job application process on Upwork. In today's fast-paced gig economy, where opportunities can disappear within hours, this program offers freelancers a significant edge. By harnessing the power of artificial intelligence and automation, UpworkScribe AI enables users to efficiently apply to multiple relevant projects with personalized cover letters, maximizing their chances of securing ideal freelance opportunities.
@@ -63,8 +65,6 @@ This is the detailed flow of the system:
 - Increase the number of quality applications submitted
 - Improve proposal relevance and personalization
 - Focus energy on preparing for client interviews and project execution
-
-**UpworkScribe AI is not just a tool; it's your partner in navigating the competitive world of freelancing, helping you secure more projects and grow your freelance career. 🚀**
 
 ## Takeaways and Design Choices
 
