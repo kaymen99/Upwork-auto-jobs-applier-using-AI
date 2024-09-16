@@ -115,8 +115,6 @@ class UpworkAutomationGraph:
         job_description = str(matches[-1])
         cover_letter_result = self.generate_cover_letter_agent.invoke(job_description)
         cover_letter = json.loads(cover_letter_result, strict=False)["letter"]
-        # reset writer agent messages history, so each letter is unique
-        self.generate_cover_letter_agent.reset()
         return {
             **state,
             "cover_letter": cover_letter,
@@ -148,11 +146,14 @@ class UpworkAutomationGraph:
             name="Job Classifier Agent",
             model="gemini/gemini-1.5-pro",
             system_prompt=classify_jobs_prompt.format(profile=self.profile),
+            temperature=0.1,
         )
         self.generate_cover_letter_agent = Agent(
             name="Writer Agent",
-            model="groq/llama3-70b-8192",
+            # model="groq/llama-3.1-70b-versatile",
+            model="gemini/gemini-1.5-pro",
             system_prompt=generate_cover_letter_prompt.format(profile=self.profile),
+            temperature=0.1
         )
 
     def build_graph(self):

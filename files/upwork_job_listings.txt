@@ -1,0 +1,100 @@
+Title: Website / software development
+Link: https://www.upwork.com/jobs/Website-software-span-class-highlight-development-span_~021835729443794898896/?referrer_url_path=/nx/search/jobs
+Description: I am developing a new service called UPROCURE and need to outline the business workflow requirements for the website. The platform will offer the following services: Procurement as a Service Warehousing as a Service Logistics as a Service Finance as a Service The primary focus will be on procurement and logistics, as these services are interconnected. The finance service will handle invoicing, aging, and payment processing, while warehousing will be outsourced. As a result, we need to establish a seamless integration between UPROCURE and the chosen warehousing software. Could you help create a business workflow for the website based on these requirements?
+Job Type: Hourly
+Experience Level: Expert
+Budget: Est. time:
+1 to 3 months, Less than 30 hrs/week
+
+---
+
+Title: Medspa Appointment Setters and Internal Sales Agents for Marketing Agency
+Link: https://www.upwork.com/jobs/Medspa-Appointment-Setters-and-Internal-Sales-span-class-highlight-Agents-span-for-Marketing-Agency_~021835684090402882772/?referrer_url_path=/nx/search/jobs
+Description: APPLY ONLY IF YOU'RE AMERICAN **Job Posting Title:** Medspa Appointment Setters and Internal Sales Agents for Marketing Agency ————————————— **Description:** We’re looking for appointment setters and ISAs (Internal-Sales-) for our marketing agency. **Skills Required:** • Perfect American Accent: if you do not sound American, you’re not eligible for this. • Previous Experience: 3+ months working with an Agency in the Beauty/Health Space • Voice Skills: Good tonality, no filler words, you’re able to build rapport with people. • Sales Skills (Optional): You’re empathetic, carefully listen, and have experience. • Time: this starts as a part time job. Based on your experience you’ll be able to upgrade to Full-Time. **Your Role:** Appointment Setter: • Call and qualify Leads/Booked Appointments • Collect Pre-Paid Deposits from Interested Leads • Call to remind about appointments (3-1 Day Before) ISA (Internal Sales ): • Consult and Sell Patients on Calls **Compensations:** • Earn $200-$2000 every single month. • Get special upgrading gifts: PC, Monitor, Microphone, Keyboard, Mouse, Headset.
+Job Type: Fixed price
+Experience Level: Intermediate
+Budget: Est. budget:
+$300.00
+
+---
+
+Title: Medspa Appointment Setters and Internal Sales Agents for Marketing Agency
+Link: https://www.upwork.com/jobs/Medspa-Appointment-Setters-and-Internal-Sales-span-class-highlight-Agents-span-for-Marketing-Agency_~021835684004307559082/?referrer_url_path=/nx/search/jobs
+Description: APPLY ONLY IF YOU'RE AMERICAN **Job Posting Title:** Medspa Appointment Setters and Internal Sales Agents for Marketing Agency ————————————— **Description:** We’re looking for appointment setters and ISAs (Internal-Sales-) for our marketing agency. **Skills Required:** • Perfect American Accent: if you do not sound American, you’re not eligible for this. • Previous Experience: 3+ months working with an Agency in the Beauty/Health Space • Voice Skills: Good tonality, no filler words, you’re able to build rapport with people. • Sales Skills (Optional): You’re empathetic, carefully listen, and have experience. • Time: this starts as a part time job. Based on your experience you’ll be able to upgrade to Full-Time. **Your Role:** Appointment Setter: • Call and qualify Leads/Booked Appointments • Collect Pre-Paid Deposits from Interested Leads • Call to remind about appointments (3-1 Day Before) ISA (Internal Sales ): • Consult and Sell Patients on Calls **Compensations:** • Earn $200-$2000 every single month. • Get special upgrading gifts: PC, Monitor, Microphone, Keyboard, Mouse, Headset.
+Job Type: Fixed price
+Experience Level: Entry Level
+Budget: Est. budget:
+$300.00
+
+---
+
+Title: Medspa Appointment Setters and Internal Sales Agents for Marketing Agency
+Link: https://www.upwork.com/jobs/Medspa-Appointment-Setters-and-Internal-Sales-span-class-highlight-Agents-span-for-Marketing-Agency_~021835683403566211121/?referrer_url_path=/nx/search/jobs
+Description: APPLY ONLY IF YOU'RE AMERICAN **Job Posting Title:** Medspa Appointment Setters and Internal Sales Agents for Marketing Agency ————————————— **Description:** We’re looking for appointment setters and ISAs (Internal-Sales-) for our marketing agency. **Skills Required:** • Perfect American Accent: if you do not sound American, you’re not eligible for this. • Previous Experience: 3+ months working with an Agency in the Beauty/Health Space • Voice Skills: Good tonality, no filler words, you’re able to build rapport with people. • Sales Skills (Optional): You’re empathetic, carefully listen, and have experience. • Time: this starts as a part time job. Based on your experience you’ll be able to upgrade to Full-Time. **Your Role:** Appointment Setter: • Call and qualify Leads/Booked Appointments • Collect Pre-Paid Deposits from Interested Leads • Call to remind about appointments (3-1 Day Before) ISA (Internal Sales ): • Consult and Sell Patients on Calls **Compensations:** • Earn $200-$2000 every single month. • Get special upgrading gifts: PC, Monitor, Microphone, Keyboard, Mouse, Headset.
+Job Type: Fixed price
+Experience Level: Intermediate
+Budget: Est. budget:
+$300.00
+
+---
+
+Title: AWS Architecture Fine-Tuning Specialist
+Link: https://www.upwork.com/jobs/AWS-Architecture-Fine-Tuning-Specialist_~021835720914885540012/?referrer_url_path=/nx/search/jobs
+Description: Job Title: AWS Architecture Fine-Tuning Specialist Job Description: We are seeking an experienced AWS Architecture Fine-Tuning Specialist with expertise in AWS, Machine Learning (ML), and the MERN stack. The ideal candidate will be responsible for optimizing our cloud architecture to enhance performance, scalability, and security while integrating machine learning capabilities into our applications. Key Responsibilities: - Architecture Optimization: Analyze and fine-tune existing AWS architectures to improve performance, cost-efficiency, and scalability. - Machine Learning Integration: Collaborate with data scientists to deploy and optimize machine learning models on AWS services like SageMaker, Lambda, and EC2. - MERN Stack : Utilize MongoDB, Express.js, React.js, and Node.js to and enhance web applications that leverage AWS infrastructure. - Deployment Management: Oversee the deployment of applications on AWS, ensuring best practices for CI/CD pipelines using tools like AWS CodePipeline and CodeDeploy. - Monitoring and Reporting: Implement monitoring solutions using AWS CloudWatch and other tools to track performance and identify areas for improvement. - Security Implementation: Ensure robust security measures are in place, including IAM roles, VPC configurations, and data encryption. - Documentation: Maintain clear documentation of architectural changes, deployment processes, and best practices to facilitate knowledge sharing within the team. Requirements: - AWS Expertise: Strong experience with AWS services (S3, EC2, Lambda, RDS, SageMaker, etc.) and architecture best practices. - Machine Learning Knowledge: Familiarity with ML concepts and experience deploying ML models on AWS. - MERN Stack Proficiency: Proven experience in full-stack applications using MongoDB, Express.js, React.js, and Node.js. - Deployment Skills: Experience with CI/CD processes and tools for deploying applications in cloud environments. - Problem-Solving Skills: Strong analytical and troubleshooting skills to optimize cloud architecture and resolve issues. - Version Control: Proficient in Git for version control and collaboration.
+Job Type: Hourly: $80.00 - $80.00
+Experience Level: Expert
+Budget: Est. time:
+Less than 1 month, Less than 30 hrs/week
+
+---
+
+Title: Expert consultant manychat
+Link: https://www.upwork.com/jobs/Expert-consultant-manychat_~021835720590269272016/?referrer_url_path=/nx/search/jobs
+Description: I am looking for a specialized consultant for the development and troubleshooting of ManyChat for an engineering company located in Colombia.
+Job Type: Hourly
+Experience Level: Intermediate
+Budget: Est. time:
+Less than 1 month, Less than 30 hrs/week
+
+---
+
+Title: Go high level ai bot
+Link: https://www.upwork.com/jobs/high-level-span-class-highlight-span-bot_~021835709506449556307/?referrer_url_path=/nx/search/jobs
+Description: Job Title: GoHighLevel AI Bot Developer for Appointment Booking Description: We are seeking an experienced developer with expertise in GoHighLevel to create an AI-powered bot that can help automate appointment booking for our credit repair business. The ideal candidate should have strong experience in GoHighLevel workflows, chatbot integrations, and appointment scheduling. Responsibilities: • an chatbot within GoHighLevel to automate lead conversations and book appointments. • Integrate the bot with our existing GoHighLevel CRM, ensuring that leads are tracked and managed effectively. • Set up workflows for the bot to qualify leads and guide them through the appointment booking process. • Implement SMS and/or email follow-up sequences if needed for missed appointments or rescheduling. • Ensure the bot follows compliance standards for SMS messaging. • Provide documentation or brief training on how to manage and update the bot as needed. Requirements: • Proven experience with GoHighLevel automation and chatbot . • Familiarity with appointment scheduling and CRM systems. • Knowledge of SMS compliance and best practices. • Ability to customize the chatbot based on business needs. • Strong communication skills to collaborate with our team. Bonus: • Experience working with credit repair or financial service businesses. To Apply: Please share examples of similar bots or automation projects you’ve built within GoHighLevel, along with your pricing and timeline for completion.
+Job Type: Hourly: $3.00 - $6.00
+Experience Level: Intermediate
+Budget: Est. time:
+Less than 1 month, Less than 30 hrs/week
+
+---
+
+Title: Create A.I based news aggregator
+Link: https://www.upwork.com/jobs/Create-based-news-aggregator_~021835687990361178473/?referrer_url_path=/nx/search/jobs
+Description: Create an AI Agent/Bot that gets me daily news on a particular topic and summarizes it and sends it to me on my email. E.g. if the topic is LinkedIn social media: It should find latest news on that topic, summarize it (date time, message, source name, source url, summary) and email it to me as a list.
+Job Type: Fixed price
+Experience Level: Expert
+Budget: Est. budget:
+$75.00
+
+---
+
+Title: AI-Powered Personalised Web Recommendations
+Link: https://www.upwork.com/jobs/span-class-highlight-span-Powered-Personalised-Web-Recommendations_~021835674623320769363/?referrer_url_path=/nx/search/jobs
+Description: Need an AI Developer to help us build an AI-powered web application that delivers personalized recommendations based on user behavior. The ideal candidate should have a strong background in machine learning, deep learning, and model integration, with specific experience in building recommendation systems. Proficiency in Python, , and Open's ChatGPT API is essential.
+Job Type: Fixed price
+Experience Level: Expert
+Budget: Est. budget:
+$450.00
+
+---
+
+Title: Full Stack Developer Needed from Europe
+Link: https://www.upwork.com/jobs/Full-Stack-span-class-highlight-Developer-span-Needed-from-Europe_~021835672198374023217/?referrer_url_path=/nx/search/jobs
+Description: We are seeking a skilled Full Stack Developer based in Europe to join our dynamic team. The ideal candidate should possess a strong understanding of both front-end and back-end technologies. NOTE-I’d like to give you a brief introduction to the project. We started this project in February this year, an engine and database based on my specific intellectual property. I initially hired a team from Europe, and the first part is now ready, allowing us to launch the app. However, I’ve identified many small errors, so I’m looking to hire another company to take over. Additionally, there are Levels 2 and 3 of the project, which are expected to take another two years to complete.
+Job Type: Hourly
+Experience Level: Intermediate
+Budget: Est. time:
+More than 6 months, 30+ hrs/week
+
+---
+

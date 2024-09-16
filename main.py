@@ -15,5 +15,3 @@ if __name__ == "__main__":
     # run automation graph
     bot = UpworkAutomationGraph(profile)
     bot.run(job_title)
-
-    print(bot.generate_cover_letter_agent.messages)
