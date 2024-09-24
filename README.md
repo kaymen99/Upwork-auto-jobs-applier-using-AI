@@ -11,7 +11,7 @@
 
 ## Introduction
 
-**UpworkScribe AI** is an innovative, AI-powered tool designed to revolutionize the freelance job application process on Upwork. In today's fast-paced gig economy, where opportunities can disappear within hours, this program offers freelancers a significant edge. By harnessing the power of artificial intelligence and automation, UpworkScribe AI enables freelancers to efficiently apply to multiple relevant projects with personalized cover letters, maximizing their chances of securing ideal freelance opportunities.
+**UpworkScribe AI** is an AI tool designed to simplify and accelerate the freelance job application process on Upwork. In today's fast-paced gig economy, where opportunities can disappear within hours, this system offers freelancers a significant edge. By harnessing the power of AI and automation, it enables freelancers to efficiently apply to multiple relevant projects with personalized cover letters, maximizing their chances of securing ideal freelance opportunities.
 
 ## The Challenge of Modern Freelancing
 
@@ -23,28 +23,17 @@ UpworkScribe AI steps in as a game-changing solution to these challenges. It's n
 
 ## Features
 
-### Intelligent Job Scraping and Classification
+### Jobs Scraping and Classification
 
 - Customizable search criteria based on user-provided job titles
 - Continuous scanning for new project listings
-- Smart classification to identify jobs matching user profiles
+- Smart classification to identify jobs matching the freelancer profiles
 
-### AI-Powered Cover Letter Generation
+### AI Cover Letter Generation
 
 - Dynamic cover letter creation based on job descriptions
-- Personalization aligned with user writing style
+- Personalization aligned with user writing style, skills and past experiences.
 - Keyword optimization for improved proposal relevance
-
-### Efficient Application Management
-
-- Bulk cover letter generation for multiple projects
-- Automatic saving of generated cover letters for review
-- Streamlined submission process
-
-### Advanced AI Technology
-
-- Utilizes Langgraph for workflow orchestration
-- Implements Litellm for multi LLM integration
 
 ## How It Works
 
@@ -59,14 +48,7 @@ This is the detailed flow of the system:
 
 [![](https://mermaid.ink/img/pako:eNqdk0FvozAQhf-K5UirrZRI0eaScKiUQBulaquqNOoBejB4CFbARrZJWiX57x0H0tJbFw54Bt735hnhA00VB-rRjWZVTl6CWBK85tHagCYrWdX2jYxG18c7lZAXYQs4ksVf14QpEqCvGmBxFj2zPXHv7oWxQm7MkfgH1_sFM0ZkAi1b_w1Ie2pq_4w-MJvmwB2OWBD5aofqe7AWl1ctcOmgb110Lcsf8E0UCJMyzVtVc79ttvSkVSYKaDblfDEnCe2H21jQ1QdnxRIkaGbRuxsIhyyjZ9gJ2JM_JGQ7aEctz9C8qjSq-ZGsorBOSmGJVWRd7ZXe_hA-AnBDnJERSjYBYtkojMtE5gTTFt4gm2VDY7XagjeYTqdtPdoLbnPvX_U-TFWhtDcYj8ddfNHiSfKNTyaT3-L-ZXqS9MGDy_SsF37T4pzzPvjtJXw264Mvv758L3zV4rP_mU6HtARdMsHxRB6cXUxtDiXE1MOSM72NaSxPqGO1VeGHTKlndQ1DqlW9yamXscJgV1ccf9pAMDzWZfv09AkL_EYn?type=png)](https://mermaid.live/edit#pako:eNqdk0FvozAQhf-K5UirrZRI0eaScKiUQBulaquqNOoBejB4CFbARrZJWiX57x0H0tJbFw54Bt735hnhA00VB-rRjWZVTl6CWBK85tHagCYrWdX2jYxG18c7lZAXYQs4ksVf14QpEqCvGmBxFj2zPXHv7oWxQm7MkfgH1_sFM0ZkAi1b_w1Ie2pq_4w-MJvmwB2OWBD5aofqe7AWl1ctcOmgb110Lcsf8E0UCJMyzVtVc79ttvSkVSYKaDblfDEnCe2H21jQ1QdnxRIkaGbRuxsIhyyjZ9gJ2JM_JGQ7aEctz9C8qjSq-ZGsorBOSmGJVWRd7ZXe_hA-AnBDnJERSjYBYtkojMtE5gTTFt4gm2VDY7XagjeYTqdtPdoLbnPvX_U-TFWhtDcYj8ddfNHiSfKNTyaT3-L-ZXqS9MGDy_SsF37T4pzzPvjtJXw264Mvv758L3zV4rP_mU6HtARdMsHxRB6cXUxtDiXE1MOSM72NaSxPqGO1VeGHTKlndQ1DqlW9yamXscJgV1ccf9pAMDzWZfv09AkL_EYn)
 
-## Benefits
-
-- Save hours of time on proposal writing
-- Increase the number of quality applications submitted
-- Improve proposal relevance and personalization
-- Focus energy on preparing for client interviews and project execution
-
-## Takeaways and Design Choices
+## Tech Stack
 
 ### **Using Langgraph** 
 
