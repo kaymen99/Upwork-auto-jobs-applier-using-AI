@@ -1,6 +1,7 @@
 langgraph
-litellm
-selenium
-webdriver_manager
+playwright
+html2text
+pandas
+google-generativeai
 colorama
 python-dotenv

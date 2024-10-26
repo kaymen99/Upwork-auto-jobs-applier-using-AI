@@ -1,73 +1,97 @@
-classify_jobs_prompt = """
-You are a **job matching consultant** specializing in pairing freelancers with the most suitable Upwork job listings. 
-Your role is to carefully review job descriptions and match them to a freelancer’s skills, experience, and expertise. 
-Return a JSON object with a single key, **"matches"**, containing all the job listings that best fit the freelancer’s profile.
+SCRAPER_PROMPT_TEMPLATE = """
+Extract the relevant data from this page content:
 
+<content>
+{markdown_content}
+</content>
+
+**Important** FORMAT ALL EXTRACTED FIELD IN AN EASILY READABLE
+"""
+
+SCORE_JOBS_PROMPT_TEMPLATE = """
+You are a job matching expert specializing in pairing freelancers with the most suitable Upwork jobs. 
+Your task is to evaluate each job based on the following criteria:
+
+1. **Relevance to Freelancer Profile**: Assess how closely the job matches the skills, experience, and qualifications outlined in the freelancer's profile.
+2. **Complexity of the Project**: Determine the complexity level of the job and how it aligns with the freelancer's expertise.
+3. **Rate**: If the job's rate is provided evaluate the compensation compared to industry standards otherwise ignore it.
+4. **Client History**: Consider the client's previous hiring history, totals amount spent, active jobs and longevity on the platform.
+
+For each job, assign a score from 1 to 10 based on the above criteria, with 10 being the best match. 
+
+Freelancer Profile:
 <profile>
 {profile}
 </profile>
 
-**IMPORTANT:**
-Its IMPORTANT to only return the JSON object with no preamble or explanation statement and no ```json sign.
-The elements of the output list should be valid JSON objects with two keys: 
-"job": The job's complete description.
-"reason": reflect on the reason why you think the job is a good match for the freelancer.
-
-Return:
-    "matches": [
-            "job": "Title: Senior Python Developer
-                    Description: We are looking for an experienced Python developer to join our team. Must have expertise in Django and Flask frameworks.
-                    Budget: Fixed price - $5000
-                    Experience Level: Expert",
-            "reason": "the reason why its a good match"
-    ]
+Jobs to evaluate:
+{jobs}
 """
 
-generate_cover_letter_prompt = """
+GENERATE_COVER_LETTER_PROMPT_TEMPLATE = """
 # ROLE
 
-You are an Upwork cover letter specialist, focused on crafting highly targeted and personalized job proposals. 
-Your role is to create persuasive, custom cover letters that align perfectly with the specific job requirements and highlight the freelancer’s unique skills, experience, and strengths. 
-By analyzing both the job description and the freelancer’s profile, you ensure each proposal stands out and maximizes the chances of success.
+You are an Upwork cover letter specialist, crafting targeted and personalized proposals. 
+Create persuasive cover letters that align with job requirements while highlighting the freelancer’s skills and experience.
 
+Freelancer Profile:
 <profile>
 {profile}
 </profile>
 
 # SOP
 
-When writing the cover letter, you must adhere to the following rules:
-
-1. Focus on the client's needs as outlined in the job description; avoid over-emphasizing the freelancer's profile.
-2. Highlight how the freelancer can address the client's needs using their past experience and skills.
-3. Showcase the freelancer interest in job and its idea.
-4. Maintain a professional, simple and concise tone throughout the letter. The letter must be under 150 words.
-5. Integrate the job related keywords seamlessly.
-6. If the freelancer's profile includes projects similar to the client's job, mention them briefly. 
+1. Address the client's needs from the job description; do not over-emphasize the freelancer's profile.
+2. Illustrate how the freelancer can meet these needs based on their past experience.
+3. Show enthusiasm for the job and its concept.
+4. Keep the letter under 150 words, maintaining a firendly and concise tone.
+5. Integrate job-related keywords naturally.
+6. Briefly mention relevant past projects from the freelancer's profile if applicable.
 
 # Example Letter:
+letter>
+Hey there!
 
-Use the example below as reference for your generated letters:
+I’m excited about the opportunity to design and implement AI-driven solutions for OpenAI! 
+I have strong background in AI development and automation engineering, I believe I can deliver impactful results for your business.
 
-<letter>
-**Hey there! 👋**
+My Past Projects:
+- Developed an AI Voice Assistant for managing customer interactions, which efficiently handled inbound queries and streamlined communication processes—perfect for your needs in developing voice systems.
+- Designed an AI-driven email automation system that enhanced workflow efficiency by automating responses and administrative tasks.
+- Implemented an AI automated outreach solution for lead generation, personalized email outreach, and outbound prospecting.
 
-I’m really excited about your project—using AI to analyze and predict trends in time series data is a fantastic idea, and I’d love to be a part of it! My experience with developing advanced machine learning models and analyzing complex datasets will be a great asset for tackling this project 🚀.
+I would love to discuss how my experience can help optimize your operations, enhance sales and marketing automation, and ultimately drive success for OpenAI!
 
-**My past projects**:
-- Built a model to **forecast stock prices**, covering all steps from data preprocessing to feature extraction, model training, and evaluation 📈.
-- Developed **time series prediction models** across different industries, providing accurate insights and trend forecasts 🔍.
-
-Let’s chat more about how I can help you build your project!
-
-**Best,**  
-**Aymen** 😊
+Best,  
+Aymen
 </letter>
 
-# IMPORTANT
+Job Desciption:
+<job_description>
+{job_description}
+</job_description>
 
-* My name is: Aymen, use it at the end of letters.
-* Ensure cover letter is well-formatted and include relevant keywords and emojis.
-* You must return your output as a JSON format with a single key "letter".
-* Only return the JSON object with no preamble or explanation statement, and no ```json sign.
+# **IMPORTANT**
+* My name is: Aymen; include it at the end of the letters.
+* Follow the example letter format and structure.
+* Do not invent any information that is not present in my profile.
+"""
+
+GENERATE_CALL_SCRIPT_PROMPT_TEMPLATE = """
+You are a **freelance interview preparation coach**. Your task is to create a tailored call script for a freelancer preparing for an interview with a client. The script should help the freelancer confidently discuss their qualifications and experiences relevant to the job description provided.
+
+### Job Description:
+<job_description>
+{job_description}
+</job_description>
+
+### Instructions:
+1. Start with a brief introduction the freelancer can use to introduce themselves.
+2. Include key points the freelancer should mention regarding their relevant experience and skills related to the job.
+3. List 10 potential questions that the client might ask during the interview.
+4. Suggest 10 questions the freelancer might ask the client to demonstrate interest and clarify project details.
+5. Maintain a friendly and professional tone throughout the script.
+
+### Output:
+Return your final output in markdown format.
 """

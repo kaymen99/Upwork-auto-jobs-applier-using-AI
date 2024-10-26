@@ -1,36 +1,38 @@
-import json
+import pandas as pd
+from datetime import datetime
 from langgraph.graph import END, StateGraph
 from typing_extensions import TypedDict
 from typing import List
 from colorama import Fore, Style
-from .agent import Agent
-from .utils import scrape_upwork_data, save_jobs_to_file
-from .prompts import classify_jobs_prompt, generate_cover_letter_prompt
+from .utils import (
+    scrape_upwork_data,
+    score_scaped_jobs,
+    convert_jobs_matched_to_string_list,
+    generate_cover_letter,
+    generate_interview_script_content,
+    save_scraped_jobs_to_csv,
+)
 
-SCRAPED_JOBS_FILE = "./files/upwork_job_listings.txt"
 COVER_LETTERS_FILE = "./files/cover_letter.txt"
 
 
-### Our graph state
 class GraphState(TypedDict):
     job_title: str
-    scraped_jobs_list: str
-    matches: List[dict]
+    scraped_jobs_df: pd.DataFrame
+    matches: List[str]
     job_description: str
     cover_letter: str
+    call_script: str
     num_matches: int
 
 
-class UpworkAutomationGraph:
-    def __init__(self, profile, num_jobs=10):
+class UpworkAutomation:
+    def __init__(self, profile, num_jobs=20):
         # Freelancer profile/resume
         self.profile = profile
 
         # Number of jobs to collect
         self.number_of_jobs = num_jobs
-
-        # Build agents
-        self.init_agents()
 
         # Build graph
         self.graph = self.build_graph()
@@ -49,30 +51,25 @@ class UpworkAutomationGraph:
             + f"----- Scraping Upwork jobs for: {job_title} -----\n"
             + Style.RESET_ALL
         )
-        job_listings = scrape_upwork_data(job_title, self.number_of_jobs)
+        job_listings_df = scrape_upwork_data(job_title, self.number_of_jobs)
 
         print(
             Fore.GREEN
-            + f"----- Scraped {len(job_listings)} jobs -----\n"
+            + f"----- Scraped {len(job_listings_df)} jobs -----\n"
             + Style.RESET_ALL
         )
-        # write scraped jobs to txt file
-        save_jobs_to_file(job_listings, SCRAPED_JOBS_FILE)
-        job_listings_str = "\n".join(map(str, job_listings))
-        return {**state, "scraped_jobs_list": job_listings_str}
+        return {**state, "scraped_jobs_df": job_listings_df}
 
-    def classify_scraped_jobs(self, state):
-        """
-        Classify scraped jobs based on the profile.
-
-        @param state: The current state of the application.
-        @return: Updated state with classified jobs.
-        """
-        print(Fore.YELLOW + "----- Classifying scraped jobs -----\n" + Style.RESET_ALL)
-        scraped_jobs = state["scraped_jobs_list"]
-        classify_result = self.classify_jobs_agent.invoke(scraped_jobs)
-        matches = json.loads(classify_result, strict=False)["matches"]
-        return {**state, "matches": matches}
+    def score_scraped_jobs(self, state):
+        print(Fore.YELLOW + "----- Scoring scraped jobs -----\n" + Style.RESET_ALL)
+        jobs_df = score_scaped_jobs(state["scraped_jobs_df"], self.profile)
+        jobs_matched = jobs_df[jobs_df["score"] >= 7]
+        matches = convert_jobs_matched_to_string_list(jobs_matched)
+        return {
+            "scraped_jobs_df": jobs_df,
+            "matches": matches,
+            "num_matchs": len(matches),
+        }
 
     def check_for_job_matches(self, state):
         print(
@@ -80,10 +77,7 @@ class UpworkAutomationGraph:
             + "----- Checking for remaining job matches -----\n"
             + Style.RESET_ALL
         )
-        if len(state["matches"]) == 0:
-            return {**state, "num_matchs": 0}
-        else:
-            return {**state, "num_matchs": len(state["matches"])}
+        return state
 
     def need_to_process_matches(self, state):
         """
@@ -93,15 +87,19 @@ class UpworkAutomationGraph:
         @return: "empty" if no job matches, otherwise "process".
         """
         if len(state["matches"]) == 0:
-            print(Fore.RED + "No job matches\n" + Style.RESET_ALL)
+            print(Fore.RED + "No job matches remaining\n" + Style.RESET_ALL)
+            save_scraped_jobs_to_csv(state["scraped_jobs_df"])
             return "No matches"
         else:
             print(
                 Fore.GREEN
-                + f"There are {len(state['matches'])} Job matches to process\n"
+                + f"There are {len(state['matches'])} Job matches remaining to process\n"
                 + Style.RESET_ALL
             )
             return "Process jobs"
+
+    def generate_job_application_content(self, state):
+        return state
 
     def generate_cover_letter(self, state):
         """
@@ -113,70 +111,82 @@ class UpworkAutomationGraph:
         print(Fore.YELLOW + "----- Generating cover letter -----\n" + Style.RESET_ALL)
         matches = state["matches"]
         job_description = str(matches[-1])
-        cover_letter_result = self.generate_cover_letter_agent.invoke(job_description)
-        cover_letter = json.loads(cover_letter_result, strict=False)["letter"]
-        return {
-            **state,
-            "cover_letter": cover_letter,
-            "job_description": job_description,
-        }
+        cover_letter = generate_cover_letter(job_description, self.profile)
+        return {"job_description": job_description, "cover_letter": cover_letter}
 
-    def save_cover_letter(self, state):
-        """
-        Save the generated cover letter to a file.
+    def generate_interview_script_content(self, state):
+        print(Fore.YELLOW + "----- Generating call script -----\n" + Style.RESET_ALL)
+        matches = state["matches"]
+        job_description = str(matches[-1])
+        call_script = generate_interview_script_content(job_description)
+        return {"call_script": call_script}
 
-        @param state: The current state of the application.
-        @return: The updated state after saving the cover letter.
-        """
-        print(Fore.YELLOW + "----- Saving cover letter -----\n" + Style.RESET_ALL)
+    def save_job_application_content(self, state):
+        print(
+            Fore.YELLOW + "----- Saving cover letter & script -----\n" + Style.RESET_ALL
+        )
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
         with open(COVER_LETTERS_FILE, "a") as file:
-            file.write(state["cover_letter"] + f'\n{"-"*70}\n')
+            file.write("\n" + "=" * 80 + "\n")
+            file.write(f"DATE: {timestamp}\n")
+            file.write("=" * 80 + "\n\n")
+
+            # Job Description Section
+            file.write("### Job Description ###\n")
+            file.write(state["job_description"] + "\n\n")
+
+            # Cover Letter Section
+            file.write("### Cover Letter ###\n")
+            file.write(state["cover_letter"] + "\n\n")
+
+            # Call Script Section
+            file.write("### Call Script ###\n")
+            file.write(state["call_script"] + "\n")
+
+            file.write("\n" + "/" * 100 + "\n")
 
         # Remove already processed job
         state["matches"].pop()
-        return {**state, "matches": state["matches"]}
-
-    def init_agents(self):
-        """
-        Initialize agents for scraping jobs, classifying jobs, and generating cover letters.
-        """
-        # Using Gemini model for its longer context length
-        # llama3 with Groq will hit the TPM limit and throw an error
-        self.classify_jobs_agent = Agent(
-            name="Job Classifier Agent",
-            model="gemini/gemini-1.5-pro",
-            system_prompt=classify_jobs_prompt.format(profile=self.profile),
-            temperature=0.1,
-        )
-        self.generate_cover_letter_agent = Agent(
-            name="Writer Agent",
-            # model="groq/llama-3.1-70b-versatile",
-            model="gemini/gemini-1.5-pro",
-            system_prompt=generate_cover_letter_prompt.format(profile=self.profile),
-            temperature=0.1
-        )
+        return {"matches": state["matches"]}
 
     def build_graph(self):
         graph = StateGraph(GraphState)
 
         # create all required nodes
         graph.add_node("scrape_upwork_jobs", self.scrape_upwork_jobs)
-        graph.add_node("classify_scraped_jobs", self.classify_scraped_jobs)
+        graph.add_node("score_scraped_jobs", self.score_scraped_jobs)
         graph.add_node("check_for_job_matches", self.check_for_job_matches)
+        graph.add_node(
+            "generate_job_application_content", self.generate_job_application_content
+        )
         graph.add_node("generate_cover_letter", self.generate_cover_letter)
-        graph.add_node("save_cover_letter", self.save_cover_letter)
+        graph.add_node(
+            "generate_interview_script_content",
+            self.generate_interview_script_content,
+        )
+        graph.add_node(
+            "save_job_application_content", self.save_job_application_content
+        )
 
         # Link nodes to complete workflow
         graph.set_entry_point("scrape_upwork_jobs")
-        graph.add_edge("scrape_upwork_jobs", "classify_scraped_jobs")
-        graph.add_edge("classify_scraped_jobs", "check_for_job_matches")
+        graph.add_edge("scrape_upwork_jobs", "score_scraped_jobs")
+        graph.add_edge("score_scraped_jobs", "check_for_job_matches")
         graph.add_conditional_edges(
             "check_for_job_matches",
             self.need_to_process_matches,
-            {"Process jobs": "generate_cover_letter", "No matches": END},
+            {"Process jobs": "generate_job_application_content", "No matches": END},
         )
-        graph.add_edge("generate_cover_letter", "save_cover_letter")
-        graph.add_edge("save_cover_letter", "check_for_job_matches")
+        graph.add_edge("generate_job_application_content", "generate_cover_letter")
+        graph.add_edge(
+            "generate_job_application_content", "generate_interview_script_content"
+        )
+        graph.add_edge("generate_cover_letter", "save_job_application_content")
+        graph.add_edge(
+            "generate_interview_script_content", "save_job_application_content"
+        )
+        graph.add_edge("save_job_application_content", "check_for_job_matches")
 
         return graph.compile()
 
@@ -184,5 +194,6 @@ class UpworkAutomationGraph:
         print(
             Fore.BLUE + "----- Running Upwork Jobs Automation -----\n" + Style.RESET_ALL
         )
-        state = self.graph.invoke({"job_title": job_title})
+        config = {"recursion_limit": 1000}
+        state = self.graph.invoke({"job_title": job_title}, config)
         return state

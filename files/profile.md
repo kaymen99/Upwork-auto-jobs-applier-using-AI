@@ -1,38 +1,55 @@
-### Profile Overview:
-I am a dedicated AI developer with a strong background in Python programming and a passion for leveraging artificial intelligence to solve complex problems. With over 5 years of experience, I specialize in developing AI-driven solutions that streamline operations, enhance user experiences, and drive business growth. My expertise spans machine learning, natural language processing, computer vision, and deep learning technologies.
+### Profile Overview
+I am an AI developer with a strong foundation in automation engineering, currently focused on transitioning into software development and AI. My expertise spans machine learning, deep learning, and automation, with a keen interest in creating AI-driven solutions, AI agents and AI automations that streamline businesses and users daily operations. Equipped with both Master's and Engineering degrees in Automation, I bring a structured approach to AI development, driving impactful projects from concept to deployment.
 
-### Key Skills:
-- Python | NumPy | Pandas | TensorFlow | PyTorch
-- Machine Learning | Deep Learning | Natural Language Processing
-- Computer Vision | Neural Networks | Reinforcement Learning
+### Key Skills
+- **Programming & Libraries**: Python | JavaScript | FastAPI | Next.js | React.js | LangChain | LangGraph | NumPy | Pandas | TensorFlow | PyTorch  
+- **AI & Machine Learning**: Machine Learning | Deep Learning | AI Agent Development | Multi-Agent Systems | Natural Language Processing | Large Language Models (LLM)  
+- **API & System Integration**: API Development | Platform Integration | Cloud Deployment (AWS, GCP) | Data-Driven Workflows  
+- **Automation & Process Optimization**: AI-Driven Automation | Workflow Optimization | Productivity Enhancement  
+- **SaaS Development**: Experience in developing scalable SaaS applications, ensuring robust architecture and user-centric design.
 
-### Past Experiences:
-1. **Senior AI Developer | ABC Tech Solutions**
-   - Led a team of developers in designing and implementing a scalable machine learning platform for predictive analytics.
-   - Developed and deployed deep learning models for image classification, achieving a 95% improvement in accuracy.
-   - Collaborated with cross-functional teams to integrate AI solutions into existing systems, resulting in increased operational efficiency and cost savings.
+### Past Experiences
 
-2. **AI Research Intern | XYZ Research Institute**
-   - Conducted research on neural network architectures for image segmentation, resulting in a paper published at CVPR 2023.
-   - Implemented state-of-the-art algorithms in Python for semantic segmentation tasks, achieving competitive performance benchmarks.
+1. **Independent Software and AI Consultant | Self-employed**
+   - Designed and deployed custom chatbots, AI agents, and AI automation systems tailored to client needs.
+   - Developed APIs using FastAPI for Generative AI applications, such as chatbots and automated assistants.
+   - Implemented multi-agent systems utilizing frameworks like CrewAI and LangGraph to enhance functionality and scalability.
+   - Deployed Generative AI applications on AWS and GCP, ensuring efficient cloud-based operations and reliable performance.
 
-### Projects:
-1. **Sentiment Analysis Tool**
-   - Developed a sentiment analysis tool using Python and TensorFlow to analyze customer feedback, improving sentiment accuracy by 10%.
-   - Integrated the tool into a web application using Flask, allowing real-time sentiment analysis of user inputs.
+2. **AI Automation Engineer | Innovatech Solutions**
+   - Led the development of AI-driven automation systems, optimizing processes and reducing operational costs by 20%.
+   - Integrated predictive maintenance models to improve equipment reliability and minimize downtime.
+   - **Duration**: 2019 - 2022
 
-2. **Object Detection System**
-   - Designed and implemented an object detection system using computer vision techniques and OpenCV.
-   - Optimized the system for real-time performance, achieving 30 frames per second on NVIDIA Jetson Xavier NX.
+### Project Portfolio
+1. **Langgraph Email Automation**
+   - Built an AI-powered customer support email automation system with LangChain and LangGraph, improving response accuracy and streamlining workflow.
+   - **Tech Stack**: Python, Langchain, LangGraph
 
-### Education:
-- Master of Science in Artificial Intelligence | University of California, Berkeley
-- Bachelor of Engineering in Computer Science | Massachusetts Institute of Technology
+2. **Sales Outreach Automation with Langgraph**
+   - Created an automated system for lead analysis and personalized outreach using AI-driven research and content generation, seamlessly integrated with HubSpot CRM.
+   - **Tech Stack**: Python, Langchain, HubSpot API
 
-### Certifications:
-- Machine Learning Engineer Certification | Coursera
-- Deep Learning Specialization | Stanford University
+3. **AI Sales Agent**
+   - Developed an AI agent for automating customer engagement, product recommendations, consultation bookings, and Stripe payment processing.
+   - **Tech Stack**: Python, Stripe API
 
-### Languages:
+4. **AI Voice Assistant**
+   - Designed an AI voice assistant for scheduling, contact management, and online knowledge access via simple voice commands.
+   - **Tech Stack**: Python, Voice Recognition API, NLP
+
+5. **AI Telegram Assistant**
+   - Built a versatile AI assistant accessible through Telegram for managing emails, calendar events, and Notion to-do lists, improving productivity with a team of AI sub-agents.
+   - **Tech Stack**: Python, Telegram API, Notion API
+
+### Education
+- Master’s Degree in Automation Engineering
+- Engineering Degree in Automation
+
+### Certifications
+- Machine Learning with Python | Coursera
+- Deep Learning Specialization | Andrew Ng
+
+### Languages
 - English (Fluent)
-- Spanish (Intermediate)
+- French (Fluent)
