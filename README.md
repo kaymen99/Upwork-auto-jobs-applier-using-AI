@@ -1,7 +1,7 @@
 <!--
   Title: UpworkScribe AI: Automated Jobs Application on Upwork
   Description: UpworkScribe AI is an innovative, AI tool designed to automate and optimize the job application process on Upwork, enabling freelancers to efficiently apply to multiple relevant projects with personalized cover letters.
-  Author: Aymen Mir
+  Author: Aymen
   Keywords: Langgraph, litellm, LLAMA3, Upwork automation, automated job applications, AI cover letter generator, job scraping, freelance tools
 -->
 
@@ -25,28 +25,31 @@ UpworkScribe AI steps in as a game-changing solution to these challenges. It's n
 
 ### Jobs Scraping and Classification
 
-- Customizable search criteria based on user-provided job titles
-- Continuous scanning for new project listings
-- Smart classification to identify jobs matching the freelancer profiles
+- **Continuous Job Monitoring**: The system continuously scans Upwork for new project listings of the freelancer provided job titles, ensuring freelancer stay up-to-date.
+- **Intelligent Job Scoring**: Each job receives a score based on various criteria such: match with freelancer experience & skills, budget, duration, client history and past projects on the platform,etc. Only jobs scoring 7/10 or higher proceed for further analysis.
 
-### AI Cover Letter Generation
+### AI Cover Letter and Interview Script Generation
 
-- Dynamic cover letter creation based on job descriptions
-- Personalization aligned with user writing style, skills and past experiences.
-- Keyword optimization for improved proposal relevance
+- **Dynamic Cover Letter Creation**: AI crafts custom cover letters based on each job description and.
+- **Personalized Content**: Tailors cover letters to reflect the user’s unique writing style, skills, and relevant experiences.
+- **Interview Script and Questions**: Prepares a list of potential interview questions and a script for the freelancer, covering job-specific topics to improve interview readiness.
+- **Keyword Optimization**: Incorporates job-related keywords to enhance proposal relevance and client interest.
 
 ## How It Works
 
-1. **Job Scraping**: The system scrapes Upwork for job listings based on user-provided criteria.
-2. **Job Classification**: AI agents classify scraped jobs to identify the best matches for the user's freelance profile.
-3. **Cover Letter Generation**: Personalized cover letters are created using AI, tailored to each job description and the user's skills, experience and writing style.
-4. **Review and Submission**: Generated cover letters are saved for user review before submission.
+1. **User Input**: The process starts with the user entering a job title.
+2. **Job Scraping**: The system continuously scrapes Upwork for job listings that match the user-provided criteria, gathering relevant opportunities in real-time.
+3. **Job Scoring and Filtering**: Each job is scored by AI, and only jobs with a score of 7/10 or higher are presented to the freelancer, filtering out lower-quality matches.
+5. **Cover Letter and Interview Prep**: For strong job matches, the system generates:
+   - A personalized cover letter emphasizing the user’s qualifications and alignment with the job.
+   - A custom interview script and potential questions to prepare the user for discussions with potential clients.
+6. **Review and Submission**: The generated cover letter, interview script, and questions are saved for user review, allowing for final adjustments before submission to prospective clients.
 
 ### System Flowchart
 
 This is the detailed flow of the system:
 
-[![](https://mermaid.ink/img/pako:eNqdk0FvozAQhf-K5UirrZRI0eaScKiUQBulaquqNOoBejB4CFbARrZJWiX57x0H0tJbFw54Bt735hnhA00VB-rRjWZVTl6CWBK85tHagCYrWdX2jYxG18c7lZAXYQs4ksVf14QpEqCvGmBxFj2zPXHv7oWxQm7MkfgH1_sFM0ZkAi1b_w1Ie2pq_4w-MJvmwB2OWBD5aofqe7AWl1ctcOmgb110Lcsf8E0UCJMyzVtVc79ttvSkVSYKaDblfDEnCe2H21jQ1QdnxRIkaGbRuxsIhyyjZ9gJ2JM_JGQ7aEctz9C8qjSq-ZGsorBOSmGJVWRd7ZXe_hA-AnBDnJERSjYBYtkojMtE5gTTFt4gm2VDY7XagjeYTqdtPdoLbnPvX_U-TFWhtDcYj8ddfNHiSfKNTyaT3-L-ZXqS9MGDy_SsF37T4pzzPvjtJXw264Mvv758L3zV4rP_mU6HtARdMsHxRB6cXUxtDiXE1MOSM72NaSxPqGO1VeGHTKlndQ1DqlW9yamXscJgV1ccf9pAMDzWZfv09AkL_EYn?type=png)](https://mermaid.live/edit#pako:eNqdk0FvozAQhf-K5UirrZRI0eaScKiUQBulaquqNOoBejB4CFbARrZJWiX57x0H0tJbFw54Bt735hnhA00VB-rRjWZVTl6CWBK85tHagCYrWdX2jYxG18c7lZAXYQs4ksVf14QpEqCvGmBxFj2zPXHv7oWxQm7MkfgH1_sFM0ZkAi1b_w1Ie2pq_4w-MJvmwB2OWBD5aofqe7AWl1ctcOmgb110Lcsf8E0UCJMyzVtVc79ttvSkVSYKaDblfDEnCe2H21jQ1QdnxRIkaGbRuxsIhyyjZ9gJ2JM_JGQ7aEctz9C8qjSq-ZGsorBOSmGJVWRd7ZXe_hA-AnBDnJERSjYBYtkojMtE5gTTFt4gm2VDY7XagjeYTqdtPdoLbnPvX_U-TFWhtDcYj8ddfNHiSfKNTyaT3-L-ZXqS9MGDy_SsF37T4pzzPvjtJXw264Mvv758L3zV4rP_mU6HtARdMsHxRB6cXUxtDiXE1MOSM72NaSxPqGO1VeGHTKlndQ1DqlW9yamXscJgV1ccf9pAMDzWZfv09AkL_EYn)
+[![](https://mermaid.ink/img/pako:eNqdlMGO2jAQhl_FMlJPoNJyKETtSiEBxGqL2rJ7Sjg49oRYBDuyHegKePc6TlKye1olUiJP8n_zz4xiXzCVDLCH94oUGXoOY4Hs9Ri9aFBoLYrSaPQoE_TMTQ47NBo9ID_aUqsG9FKcpTpUn_Wu5nwnmFuBVIBqGesK6ue8kl1r0Xf07fOX8RWF623g_wmjkGtKFENP8jyqFFzsuwm66MOPhg0uQQb0gFKpXLE_iaEZ6FvXM3DgLyUpaNeStp7RCgQoYsBhflHknBLDpUCBFAaE2XXhjWwzX9FiE0b2ftNW6Lpf3JMG8mSn-ATGgNp1Ncu7Zm191InDuRoXLwz6hH6XoKsi3g5t4chVtCUnQC3uhvuu2GUtrIOVC4JY1KE2r7ltFqU8z70BTdOhNkoewBtMJpNmPTpzZjLva_F3SGUulTcYj8dd3G_wdHbHp9PpR_F5gydJL_egdU-SPnjYuqe98EXrns764Mv_o-uFrxp81s-92WNNEsZYrwlseiXAQ3wEdSSc2dPmUiWMscngCDH27JIRdYhxLG5WR0ojt6-CYs-oEoZYyXKfYS8lubZRWTD744ec2CPr2Ly9_QPS1oVz?type=png)](https://mermaid.live/edit#pako:eNqdlMGO2jAQhl_FMlJPoNJyKETtSiEBxGqL2rJ7Sjg49oRYBDuyHegKePc6TlKye1olUiJP8n_zz4xiXzCVDLCH94oUGXoOY4Hs9Ri9aFBoLYrSaPQoE_TMTQ47NBo9ID_aUqsG9FKcpTpUn_Wu5nwnmFuBVIBqGesK6ue8kl1r0Xf07fOX8RWF623g_wmjkGtKFENP8jyqFFzsuwm66MOPhg0uQQb0gFKpXLE_iaEZ6FvXM3DgLyUpaNeStp7RCgQoYsBhflHknBLDpUCBFAaE2XXhjWwzX9FiE0b2ftNW6Lpf3JMG8mSn-ATGgNp1Ncu7Zm191InDuRoXLwz6hH6XoKsi3g5t4chVtCUnQC3uhvuu2GUtrIOVC4JY1KE2r7ltFqU8z70BTdOhNkoewBtMJpNmPTpzZjLva_F3SGUulTcYj8dd3G_wdHbHp9PpR_F5gydJL_egdU-SPnjYuqe98EXrns764Mv_o-uFrxp81s-92WNNEsZYrwlseiXAQ3wEdSSc2dPmUiWMscngCDH27JIRdYhxLG5WR0ojt6-CYs-oEoZYyXKfYS8lubZRWTD744ec2CPr2Ly9_QPS1oVz)
 
 ## Tech Stack
 
@@ -58,47 +61,11 @@ This is the detailed flow of the system:
 
 - Langgraph also enables you to use an LLM only when necessary. For example, in this application, we need to scrape jobs from Upwork, which does not require an LLM call; a simple node tool suffices. In other frameworks, you would need to create an agent that calls the scraping tool through function calling, which helps reduce the application's cost.
 
-### **Using LiteLLM** 
-
-- LiteLLM is a framework that standardizes calls to 100+ LLMs. It allows interaction with different LLMs beyond OpenAI (GPT models) using the same input/output format, simplifying the process of switching models for the application to just changing the model name.
-
-* **Use LLAMA3 with GROQ**:
-  
-```python
-from litellm import completion
-
-response = completion(
-               model="groq/llama3-70b-8192",
-               messages=messages,
-               temperature=0.1
-           )
-```
-
-* **Use Google Gemini**:
-  
-```python
-response = completion(
-               model="gemini/gemini-1.5-flash",
-               messages=messages,
-               temperature=0.1
-           )
-```
-
-### **Future Improvements** 
-
-While the current app provides correct results, it requires further tuning to be used in real job applications.
-
-- Currently, only two example letters are provided to the writer agent (directly in its prompt) for crafting personalized letters. This is insufficient, and it would be better to create a file containing multiple cover letters written in the user's style, which will improve the model's output.
-
-- **Enhanced Feedback Loop**: Implement a mechanism for continuous feedback from user, allowing the model to adapt and learn from user writing style (similar to reinforcement learning from human feedback).
-
 ## How to Run
 
 ### Prerequisites
 
 - Python 3.9+
-- Tavily API key
-- Groq API key (for Llama3)
 - Google Gemini API key (for using Gemini model)
 - Necessary Python libraries (listed in `requirements.txt`)
 
@@ -129,9 +96,7 @@ While the current app provides correct results, it requires further tuning to be
    Create a `.env` file in the root directory of the project and add your API keys:
 
    ```env
-   TAVILY_API_KEY=your_tavily_api_key
-   GEMINI_API_KEY=your_gemini_api_key
-   GROQ_API_KEY=your_groq_api_key
+   GOOGLE_API_KEY=your_gemini_api_key
    ```
 
 ### Running the Application
