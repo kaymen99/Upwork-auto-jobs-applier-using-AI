@@ -63,12 +63,6 @@ This is the detailed flow of the system:
 
 ## How to Run
 
-### Prerequisites
-
-- Python 3.9+
-- Google Gemini API key (for using Gemini model)
-- Necessary Python libraries (listed in `requirements.txt`)
-
 ### Setup
 
 1. **Clone the repository:**
@@ -78,20 +72,7 @@ This is the detailed flow of the system:
    cd upwork-auto-jobs-applier-using-AI
    ```
 
-2. **Create and activate a virtual environment:**
-
-   ```sh
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-
-3. **Install the required packages:**
-
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-4. **Set up environment variables:**
+2. **Set up environment variables:**
 
    Create a `.env` file in the root directory of the project and add your API keys:
 
@@ -99,7 +80,27 @@ This is the detailed flow of the system:
    GOOGLE_API_KEY=your_gemini_api_key
    ```
 
-### Running the Application
+#### Run Locally
+##### Prerequisites
+
+- Python 3.9+
+- Necessary Python libraries (listed in `requirements.txt`)
+- Google Gemini API key (for using Gemini model)
+
+1. **Create and activate a virtual environment:**
+
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+2. **Install the required packages:**
+
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+##### Running the Application
 
 1. **Start the workflow:**
 
@@ -111,9 +112,33 @@ This is the detailed flow of the system:
    
    By default at the end of the process, all the cover letters generated are saved under `files/cover_letter.txt` file.
 
-3. You can test the Upwork jobs scraping tool by running:
+2. You can test the Upwork jobs scraping tool by running:
    ```sh
    python scrape_upwork_jobs.py
+   ```
+
+#### Run in Docker
+##### Prerequisites
+
+- Docker
+- Google Gemini API key (for using Gemini model)
+
+##### Running the Application
+
+1. **Start the workflow:**
+
+   ```sh
+   docker build -t upwork-auto-jobs-applier-using-ai . 
+   docker run -e GOOGLE_API_KEY=YOUR_API_KEY_HERE -v ./files:/usr/src/app/files upwork-auto-jobs-applier-using-ai
+   ```
+
+   The application will start scraping job listings, classifying them, generating cover letters, and saving the results.
+   
+   By default at the end of the process, all the cover letters generated are saved under `files/cover_letter.txt` file.
+
+2. You can test the Upwork jobs scraping tool by running:
+   ```sh
+   docker run -e GOOGLE_API_KEY=YOUR_API_KEY_HERE -v ./files:/usr/src/app/files upwork-auto-jobs-applier-using-ai python scrape_upwork_jobs.py
    ```
 
 ### Customization
