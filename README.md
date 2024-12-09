@@ -35,6 +35,8 @@ UpworkScribe AI steps in as a game-changing solution to these challenges. It's n
 - **Interview Script and Questions**: Prepares a list of potential interview questions and a script for the freelancer, covering job-specific topics to improve interview readiness.
 - **Keyword Optimization**: Incorporates job-related keywords to enhance proposal relevance and client interest.
 
+---
+
 ## How It Works
 
 1. **User Input**: The process starts with the user entering a job title.
@@ -51,6 +53,8 @@ This is the detailed flow of the system:
 
 [![](https://mermaid.ink/img/pako:eNqdlMGO2jAQhl_FMlJPoNJyKETtSiEBxGqL2rJ7Sjg49oRYBDuyHegKePc6TlKye1olUiJP8n_zz4xiXzCVDLCH94oUGXoOY4Hs9Ri9aFBoLYrSaPQoE_TMTQ47NBo9ID_aUqsG9FKcpTpUn_Wu5nwnmFuBVIBqGesK6ue8kl1r0Xf07fOX8RWF623g_wmjkGtKFENP8jyqFFzsuwm66MOPhg0uQQb0gFKpXLE_iaEZ6FvXM3DgLyUpaNeStp7RCgQoYsBhflHknBLDpUCBFAaE2XXhjWwzX9FiE0b2ftNW6Lpf3JMG8mSn-ATGgNp1Ncu7Zm191InDuRoXLwz6hH6XoKsi3g5t4chVtCUnQC3uhvuu2GUtrIOVC4JY1KE2r7ltFqU8z70BTdOhNkoewBtMJpNmPTpzZjLva_F3SGUulTcYj8dd3G_wdHbHp9PpR_F5gydJL_egdU-SPnjYuqe98EXrns764Mv_o-uFrxp81s-92WNNEsZYrwlseiXAQ3wEdSSc2dPmUiWMscngCDH27JIRdYhxLG5WR0ojt6-CYs-oEoZYyXKfYS8lubZRWTD744ec2CPr2Ly9_QPS1oVz?type=png)](https://mermaid.live/edit#pako:eNqdlMGO2jAQhl_FMlJPoNJyKETtSiEBxGqL2rJ7Sjg49oRYBDuyHegKePc6TlKye1olUiJP8n_zz4xiXzCVDLCH94oUGXoOY4Hs9Ri9aFBoLYrSaPQoE_TMTQ47NBo9ID_aUqsG9FKcpTpUn_Wu5nwnmFuBVIBqGesK6ue8kl1r0Xf07fOX8RWF623g_wmjkGtKFENP8jyqFFzsuwm66MOPhg0uQQb0gFKpXLE_iaEZ6FvXM3DgLyUpaNeStp7RCgQoYsBhflHknBLDpUCBFAaE2XXhjWwzX9FiE0b2ftNW6Lpf3JMG8mSn-ATGgNp1Ncu7Zm191InDuRoXLwz6hH6XoKsi3g5t4chVtCUnQC3uhvuu2GUtrIOVC4JY1KE2r7ltFqU8z70BTdOhNkoewBtMJpNmPTpzZjLva_F3SGUulTcYj8dd3G_wdHbHp9PpR_F5gydJL_egdU-SPnjYuqe98EXrns764Mv_o-uFrxp81s-92WNNEsZYrwlseiXAQ3wEdSSc2dPmUiWMscngCDH27JIRdYhxLG5WR0ojt6-CYs-oEoZYyXKfYS8lubZRWTD744ec2CPr2Ly9_QPS1oVz)
 
+---
+
 ## Tech Stack
 
 ### **Using Langgraph** 
@@ -61,13 +65,9 @@ This is the detailed flow of the system:
 
 - Langgraph also enables you to use an LLM only when necessary. For example, in this application, we need to scrape jobs from Upwork, which does not require an LLM call; a simple node tool suffices. In other frameworks, you would need to create an agent that calls the scraping tool through function calling, which helps reduce the application's cost.
 
+---
+
 ## How to Run
-
-### Prerequisites
-
-- Python 3.9+
-- Google Gemini API key (for using Gemini model)
-- Necessary Python libraries (listed in `requirements.txt`)
 
 ### Setup
 
@@ -78,20 +78,7 @@ This is the detailed flow of the system:
    cd upwork-auto-jobs-applier-using-AI
    ```
 
-2. **Create and activate a virtual environment:**
-
-   ```sh
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-
-3. **Install the required packages:**
-
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-4. **Set up environment variables:**
+2. **Set up environment variables:**
 
    Create a `.env` file in the root directory of the project and add your API keys:
 
@@ -99,33 +86,81 @@ This is the detailed flow of the system:
    GOOGLE_API_KEY=your_gemini_api_key
    ```
 
-### Running the Application
+### Run Locally
 
-1. **Start the workflow:**
+#### Prerequisites
+
+- Python 3.9+
+- Necessary Python libraries (listed in `requirements.txt`)
+- Google Gemini API key (for using the Gemini model)
+
+#### Running the Application
+
+1. **Create and activate a virtual environment:**
+
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+2. **Install the required packages:**
+
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+3. **Start the workflow:**
 
    ```sh
    python main.py
    ```
 
-   The application will start scraping job listings, classifying them, generating cover letters, and saving the results.
-   
-   By default at the end of the process, all the cover letters generated are saved under `files/cover_letter.txt` file.
+   The application will start scraping job listings, classifying them, generating cover letters, and saving the results. By default, all the generated cover letters will be saved in the `files/cover_letter.txt` file.
 
-3. You can test the Upwork jobs scraping tool by running:
+4. **Test the Upwork jobs scraping tool** by running:
+
    ```sh
    python scrape_upwork_jobs.py
    ```
 
+---
+
+### Run in Docker
+
+#### Prerequisites
+
+- Docker
+- Google Gemini API key (for using the Gemini model)
+
+#### Running the Application
+
+1. **Build and run the Docker container:**
+
+   ```sh
+   docker build -t upwork-auto-jobs-applier-using-ai .
+   docker run -e GOOGLE_API_KEY=YOUR_API_KEY_HERE -v ./files:/usr/src/app/files upwork-auto-jobs-applier-using-ai
+   ```
+
+   The application will start scraping job listings, classifying them, generating cover letters, and saving the results. By default, all the generated cover letters will be saved in the `files/cover_letter.txt` file.
+
+2. **Test the Upwork jobs scraping tool** in Docker by running:
+
+   ```sh
+   docker run -e GOOGLE_API_KEY=YOUR_API_KEY_HERE -v ./files:/usr/src/app/files upwork-auto-jobs-applier-using-ai python scrape_upwork_jobs.py
+   ```
+
+---
+
 ### Customization
 
-* To use this automation for you own profile, just add your profile into `files/profile.md` and remove the example profile.
+- To use this automation for your own profile, just add your profile into `files/profile.md` and remove the example profile.
 
-* You can customize the behavior of each agent by modifying the corresponding agent prompt in the `prompts` script.
+- You can customize the behavior of each agent by modifying the corresponding agent prompt in the `prompts` script.
 
-### Contributing
+## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any changes.
 
-### Contact
+## Contact
 
-If you have any questions or suggestions, feel free to contact me at `aymenMir10001@gmail.com`.
+If you have any questions or suggestions, feel free to contact me at `aymenMir1001@gmail.com`.
